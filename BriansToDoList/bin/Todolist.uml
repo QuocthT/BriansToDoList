@@ -1,0 +1,2560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_haoqkIOKEeyz4o1LJu6UTw" name="Todolist">
+    <eAnnotations xmi:id="_hexjsIOKEeyz4o1LJu6UTw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_he0nAIOKEeyz4o1LJu6UTw" source="codegen">
+        <details xmi:id="_he0nAYOKEeyz4o1LJu6UTw" key="codegenDirectory" value="/Todolist/src"/>
+        <details xmi:id="_i7_voIOKEeyz4o1LJu6UTw" key="AssociatedSourceCode" value="/Todolist/src/classes/Constants.java;614219927/1;/Todolist/src/classes/MainLogic.java;2787240971/1;/Todolist/src/classes/TaskList.java;4010216494/1;/Todolist/src/classes/myTasks.java;2120151706/1;/Todolist/src/gui/AddTaskGUI.java;1849220457/1;/Todolist/src/gui/EditTaskGUI.java;269633117/1;/Todolist/src/gui/ListsOfTasksGUI.java;2636867310/1;/Todolist/src/gui/MWindowGUI.java;3355445402/1;/Todolist/src/classes/Task.java;115433579/1;/Todolist/src/classes/Factory.java;3021263546/1;"/>
+      </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_mhvHQIOKEeyz4o1LJu6UTw" source="dangling-refs">
+        <contents xmi:type="uml:Operation" xmi:id="_h1v5QIOKEeyz4o1LJu6UTw" name="getDescription" method="_h2FQcIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1wgUoOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </contents>
+        <contents xmi:type="uml:Operation" xmi:id="_h1wgUIOKEeyz4o1LJu6UTw" name="setDescription" method="_h2FQcoOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1wgUYOKEeyz4o1LJu6UTw" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </contents>
+        <contents xmi:type="uml:Operation" xmi:id="_h1xHYIOKEeyz4o1LJu6UTw" name="getDueDate" method="_h2F3gIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1xucIOKEeyz4o1LJu6UTw" type="_h0PdYYOKEeyz4o1LJu6UTw" direction="return"/>
+        </contents>
+        <contents xmi:type="uml:Operation" xmi:id="_h1xHYYOKEeyz4o1LJu6UTw" name="setDueDate" method="_h2F3goOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1xHYoOKEeyz4o1LJu6UTw" name="dueDate" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+        </contents>
+        <contents xmi:type="uml:Operation" xmi:id="_h1yVgIOKEeyz4o1LJu6UTw" name="getCompleted" method="_h2F3hIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1y8kIOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </contents>
+        <contents xmi:type="uml:Operation" xmi:id="_h1yVgYOKEeyz4o1LJu6UTw" name="setCompleted" method="_h2GekIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1yVgoOKEeyz4o1LJu6UTw" name="completed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </contents>
+        <contents xmi:type="uml:Operation" xmi:id="_h1zjoIOKEeyz4o1LJu6UTw" name="getImportant" method="_h2GekoOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h10KsIOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </contents>
+        <contents xmi:type="uml:Operation" xmi:id="_h1zjoYOKEeyz4o1LJu6UTw" name="setImportant" method="_h2GelIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1zjooOKEeyz4o1LJu6UTw" name="important">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </contents>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_huezoIOKEeyz4o1LJu6UTw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_huezoYOKEeyz4o1LJu6UTw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_huezooOKEeyz4o1LJu6UTw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_hufasIOKEeyz4o1LJu6UTw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_hufasYOKEeyz4o1LJu6UTw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_hufasoOKEeyz4o1LJu6UTw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_hufas4OKEeyz4o1LJu6UTw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_hugBwIOKEeyz4o1LJu6UTw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_hugBwYOKEeyz4o1LJu6UTw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hujFEIOKEeyz4o1LJu6UTw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hujFEYOKEeyz4o1LJu6UTw" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0NBIIOKEeyz4o1LJu6UTw" name="DateFormat"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0O2UIOKEeyz4o1LJu6UTw" name="SimpleDateFormat"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0WLEYOKEeyz4o1LJu6UTw" name="ParseException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hujsIIOKEeyz4o1LJu6UTw" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_h0PdYYOKEeyz4o1LJu6UTw" name="Date"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0Tu0IOKEeyz4o1LJu6UTw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_h0ZOYYOKEeyz4o1LJu6UTw" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0Z1cYOKEeyz4o1LJu6UTw" name="Scanner"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_h0tXcYOKEeyz4o1LJu6UTw" name="Calendar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0t-gYOKEeyz4o1LJu6UTw" name="GregorianCalendar"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_huwgcIOKEeyz4o1LJu6UTw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0VkAIOKEeyz4o1LJu6UTw" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0XZMIOKEeyz4o1LJu6UTw" name="FileWriter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0YAQYOKEeyz4o1LJu6UTw" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0YnUYOKEeyz4o1LJu6UTw" name="FileNotFoundException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_h01TQIOKEeyz4o1LJu6UTw" name="Serializable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_huyVoIOKEeyz4o1LJu6UTw" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_huzjwIOKEeyz4o1LJu6UTw" name="event">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_h0f8EYOKEeyz4o1LJu6UTw" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_h0gjIYOKEeyz4o1LJu6UTw" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_h0n34YOKEeyz4o1LJu6UTw" name="MouseAdapter"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_h0n344OKEeyz4o1LJu6UTw" name="MouseEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0bqoIOKEeyz4o1LJu6UTw" name="EventQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0et8YOKEeyz4o1LJu6UTw" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0mpwoOKEeyz4o1LJu6UTw" name="Component"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0pGAYOKEeyz4o1LJu6UTw" name="GridLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0ulkIOKEeyz4o1LJu6UTw" name="Font"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_humvcIOKEeyz4o1LJu6UTw" name="classes">
+      <packagedElement xmi:type="uml:Class" xmi:id="_hvcc8IOKEeyz4o1LJu6UTw" name="Constants">
+        <ownedAttribute xmi:id="_h1NtwIOKEeyz4o1LJu6UTw" name="DateFormat" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_h1OU0IOKEeyz4o1LJu6UTw" value="&quot;dd-MM-yyyy&quot;"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h13OAIOKEeyz4o1LJu6UTw" name="DateToString" specification="_h08oAIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h13OAYOKEeyz4o1LJu6UTw" name="date" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h13OAoOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>DateFormat dateFormat = new SimpleDateFormat(Constants.DateFormat);   
+	    return dateFormat.format(date);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_h08oAIOKEeyz4o1LJu6UTw" name="DateToString" isStatic="true" method="_h13OAIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h08oAYOKEeyz4o1LJu6UTw" name="date" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h09PEIOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hvhVcIOKEeyz4o1LJu6UTw" name="MainLogic">
+        <generalization xmi:id="_h09PEYOKEeyz4o1LJu6UTw" general="_h0R5oIOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1OU0oOKEeyz4o1LJu6UTw" name="taskName" visibility="package" type="_h0SgsYOKEeyz4o1LJu6UTw" association="_h2bOsIOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1O74YOKEeyz4o1LJu6UTw" name="factory" type="_hwZfMIOKEeyz4o1LJu6UTw" association="_h2cc0YOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1Pi8YOKEeyz4o1LJu6UTw" name="editedTask" type="_hwTYkIOKEeyz4o1LJu6UTw" association="_h2dD4YOKEeyz4o1LJu6UTw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h17fcIOKEeyz4o1LJu6UTw" name="MainLogic" specification="_hvjxsIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h17fcYOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h17fcoOKEeyz4o1LJu6UTw" type="_hvhVcIOKEeyz4o1LJu6UTw" direction="return"/>
+          <language>java</language>
+          <body>factory = new Factory(filePath);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h18GgIOKEeyz4o1LJu6UTw" name="saveTasksToFile" specification="_hvmN8IOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h18GgYOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>factory.mainTasklist.WriteTasks(filePath);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hvjxsIOKEeyz4o1LJu6UTw" name="MainLogic" method="_h17fcIOKEeyz4o1LJu6UTw">
+          <eAnnotations xmi:id="_hvk_0IOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hvk_0YOKEeyz4o1LJu6UTw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hvjxsYOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hvlm4IOKEeyz4o1LJu6UTw" type="_hvhVcIOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hvmN8IOKEeyz4o1LJu6UTw" name="saveTasksToFile" method="_h18GgIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hvm1AIOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hvpRQIOKEeyz4o1LJu6UTw" name="TaskList">
+        <generalization xmi:id="_h092IIOKEeyz4o1LJu6UTw" general="_h0Tu0IOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1Pi84OKEeyz4o1LJu6UTw" name="fileRAF" visibility="package" type="_hvxNEIOKEeyz4o1LJu6UTw" association="_h2dq8YOKEeyz4o1LJu6UTw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_h1Pi9IOKEeyz4o1LJu6UTw" value="new myTasks()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h18tkIOKEeyz4o1LJu6UTw" name="ReadTasks" specification="_hvs7oIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h18tkYOKEeyz4o1LJu6UTw" name="fileName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>fileRAF.readTasks(fileName, this);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h18tkoOKEeyz4o1LJu6UTw" name="WriteTasks" specification="_hvuw0IOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h18tk4OKEeyz4o1LJu6UTw" name="fileName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>fileRAF.saveTasks(fileName, this);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h19UoIOKEeyz4o1LJu6UTw" name="AddTask" specification="_h0UV4YOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h19UoYOKEeyz4o1LJu6UTw" name="t" type="_hwTYkIOKEeyz4o1LJu6UTw"/>
+          <language>java</language>
+          <body>this.add(t);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h19UooOKEeyz4o1LJu6UTw" name="DeleteTask" specification="_h0U88YOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h19Uo4OKEeyz4o1LJu6UTw" name="t" type="_hwTYkIOKEeyz4o1LJu6UTw"/>
+          <language>java</language>
+          <body>this.remove(t);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hvp4UIOKEeyz4o1LJu6UTw" name="TaskList">
+          <eAnnotations xmi:id="_hvp4UYOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hvp4UoOKEeyz4o1LJu6UTw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hvrGcIOKEeyz4o1LJu6UTw" type="_hvpRQIOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hvs7oIOKEeyz4o1LJu6UTw" name="ReadTasks" method="_h18tkIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hvtisIOKEeyz4o1LJu6UTw" name="fileName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hvuw0IOKEeyz4o1LJu6UTw" name="WriteTasks" method="_h18tkoOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hvuw0YOKEeyz4o1LJu6UTw" name="fileName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h0UV4YOKEeyz4o1LJu6UTw" name="AddTask" visibility="package" method="_h19UoIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h0U88IOKEeyz4o1LJu6UTw" name="t" type="_hwTYkIOKEeyz4o1LJu6UTw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h0U88YOKEeyz4o1LJu6UTw" name="DeleteTask" visibility="package" method="_h19UooOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h0U88oOKEeyz4o1LJu6UTw" name="t" type="_hwTYkIOKEeyz4o1LJu6UTw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hvxNEIOKEeyz4o1LJu6UTw" name="myTasks">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h197sIOKEeyz4o1LJu6UTw" name="readTasks" specification="_h0-dMYOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h197sYOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h197soOKEeyz4o1LJu6UTw" name="list" type="_h0ZOYYOKEeyz4o1LJu6UTw"/>
+          <language>java</language>
+          <body>File file = new File(filePath);
+     
+     Scanner scanner;
+		try {
+			scanner = new Scanner(file);
+			while(scanner.hasNext())
+	        {
+	            String[] tokens = scanner.nextLine().split(&quot;;&quot;);
+	            String strDate = tokens[0];
+	            Date date;
+				try {
+					date = new SimpleDateFormat(Constants.DateFormat).parse(strDate);
+				} catch (ParseException e) {
+					date = new Date();
+				}  
+				
+	            String description = tokens[1];
+	            String strCompleted = tokens[2];
+	            String strImportant = tokens[3];
+	            
+	            
+	            boolean completed = Boolean.parseBoolean(strCompleted);
+
+	        	boolean important = Boolean.parseBoolean(strImportant);
+	            
+	            Task t = new Task(description, date, completed, important);
+	            list.add(t);
+	        }
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h197s4OKEeyz4o1LJu6UTw" name="saveTasks" specification="_h0acgYOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h197tIOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h197tYOKEeyz4o1LJu6UTw" name="list" type="_hvpRQIOKEeyz4o1LJu6UTw"/>
+          <language>java</language>
+          <body>try {
+			new FileWriter(filePath, false).close();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		
+		try {
+			FileWriter myWriter = new FileWriter(filePath);
+			int length = list.size();
+			for(int i = 0; i &lt; length;i++)
+			{
+				Task task = list.get(i);
+				String description = task.getDescription();
+				
+				Date date = task.getDueDate();
+				String strDate = Constants.DateToString(date);
+				
+				boolean completed = task.getCompleted();
+				String strCompleted = String.valueOf(completed);
+				
+				boolean important = task.getImportant();
+	            String strImportant = String.valueOf(important);
+				
+				myWriter.write(strDate + &quot;;&quot; + description + &quot;;&quot; + strCompleted + &quot;;&quot; + strImportant);
+				myWriter.write(&quot;\n&quot;);
+			}
+		    myWriter.close();
+		} catch (IOException e) {
+			System.out.println(&quot;An error occurred&quot;);
+			e.printStackTrace();
+		}
+		
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_h0acgYOKEeyz4o1LJu6UTw" name="saveTasks" method="_h197s4OKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h0bDkIOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h0bDkYOKEeyz4o1LJu6UTw" name="list" type="_hvpRQIOKEeyz4o1LJu6UTw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h0-dMYOKEeyz4o1LJu6UTw" name="readTasks" method="_h197sIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h0-dMoOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h0-dM4OKEeyz4o1LJu6UTw" name="list" type="_h0ZOYYOKEeyz4o1LJu6UTw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hwTYkIOKEeyz4o1LJu6UTw" name="Task">
+        <ownedAttribute xmi:id="_h1s18IOKEeyz4o1LJu6UTw" name="description" visibility="public" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_h1tdAYOKEeyz4o1LJu6UTw" name="dueDate" visibility="public" type="_h0PdYYOKEeyz4o1LJu6UTw" isReadOnly="true"/>
+        <ownedAttribute xmi:id="_h1uEEYOKEeyz4o1LJu6UTw" name="completed" visibility="public" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_h1urIIOKEeyz4o1LJu6UTw" value="false"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_h1vSMIOKEeyz4o1LJu6UTw" name="important" visibility="public" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_h1IOMIOKEeyz4o1LJu6UTw" client="_hwTYkIOKEeyz4o1LJu6UTw" supplier="_h01TQIOKEeyz4o1LJu6UTw" contract="_h01TQIOKEeyz4o1LJu6UTw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2EpYIOKEeyz4o1LJu6UTw" name="Task" specification="_h1I1QIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2EpYYOKEeyz4o1LJu6UTw" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2EpYoOKEeyz4o1LJu6UTw" name="date" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h2EpY4OKEeyz4o1LJu6UTw" name="completed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2EpZIOKEeyz4o1LJu6UTw" name="important">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2EpZYOKEeyz4o1LJu6UTw" type="_hwTYkIOKEeyz4o1LJu6UTw" direction="return"/>
+          <language>java</language>
+          <body>this.description = description;
+		this.dueDate = date;
+		this.completed = completed;
+		this.important = important;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2GeloOKEeyz4o1LJu6UTw" name="toString" specification="_hwVNwIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2Gel4OKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String result = &quot;[&quot; + Constants.DateToString(dueDate) + &quot;]  &quot; + description;
+		return result;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hwVNwIOKEeyz4o1LJu6UTw" name="toString" method="_h2GeloOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwVNwYOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h1I1QIOKEeyz4o1LJu6UTw" name="Task" method="_h2EpYIOKEeyz4o1LJu6UTw">
+          <eAnnotations xmi:id="_h1JcVIOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_h1JcVYOKEeyz4o1LJu6UTw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_h1JcUIOKEeyz4o1LJu6UTw" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h1JcUYOKEeyz4o1LJu6UTw" name="date" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h1JcUoOKEeyz4o1LJu6UTw" name="completed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h1JcU4OKEeyz4o1LJu6UTw" name="important">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h1JcVoOKEeyz4o1LJu6UTw" type="_hwTYkIOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hwZfMIOKEeyz4o1LJu6UTw" name="Factory">
+        <ownedAttribute xmi:id="_h10xwIOKEeyz4o1LJu6UTw" name="mainTasklist" visibility="package" type="_hvpRQIOKEeyz4o1LJu6UTw" association="_h2xM8YOKEeyz4o1LJu6UTw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2HssIOKEeyz4o1LJu6UTw" name="Factory" specification="_hwaGQIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2HssYOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2HssoOKEeyz4o1LJu6UTw" type="_hwZfMIOKEeyz4o1LJu6UTw" direction="return"/>
+          <language>java</language>
+          <body>this.mainTasklist = new TaskList();
+		this.mainTasklist.ReadTasks(filePath);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2Hss4OKEeyz4o1LJu6UTw" name="AddTask" specification="_h1LRgIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2HstIOKEeyz4o1LJu6UTw" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2HstYOKEeyz4o1LJu6UTw" name="date" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h2HstoOKEeyz4o1LJu6UTw" name="completed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2Hst4OKEeyz4o1LJu6UTw" name="important">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Task newtask = new Task(description, date, completed, important);
+		mainTasklist.AddTask(newtask);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2ITwIOKEeyz4o1LJu6UTw" name="RemoveTask" specification="_hwatUIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2ITwYOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Task task = mainTasklist.get(i);
+		mainTasklist.DeleteTask(task);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2ITwoOKEeyz4o1LJu6UTw" name="TaskCount" specification="_hwbUYIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2ITw4OKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return mainTasklist.size();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2I60IOKEeyz4o1LJu6UTw" name="GetTaskDescription" specification="_hwb7cIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2I60YOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2I60oOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Task task = mainTasklist.get(i);
+		return task.getDescription();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2I604OKEeyz4o1LJu6UTw" name="GetTaskStatus" specification="_hwb7c4OKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2I61IOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2I61YOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String result = &quot;&quot;;
+		if (GetTaskImportant(i) == true)
+		{
+			result += &quot;! &quot;;
+		}
+		if (GetTaskCompleted(i) == true)
+		{
+			result += &quot;Done&quot;;
+		}
+		if (GetTaskActive(i) == true)
+		{
+			result += &quot;&quot;;
+		}
+		return result;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2I61oOKEeyz4o1LJu6UTw" name="GetTaskTime" specification="_hwcigoOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2I614OKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2I62IOKEeyz4o1LJu6UTw" type="_h0PdYYOKEeyz4o1LJu6UTw" direction="return"/>
+          <language>java</language>
+          <body>Task task = mainTasklist.get(i);
+		return task.getDueDate();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2I62YOKEeyz4o1LJu6UTw" name="GetTaskCompleted" specification="_hwdJkIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2I62oOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2I624OKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Task task = mainTasklist.get(i);
+		return task.getCompleted();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2Jh4IOKEeyz4o1LJu6UTw" name="GetTaskActive" specification="_hwdwoIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2Jh4YOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2Jh4oOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Task task = mainTasklist.get(i);
+		return !task.getCompleted();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2Jh44OKEeyz4o1LJu6UTw" name="GetTaskImportant" specification="_hweXsIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2Jh5IOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2Jh5YOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Task task = mainTasklist.get(i);
+		return task.getImportant();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2Jh5oOKEeyz4o1LJu6UTw" name="GetTask" specification="_hweXs4OKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2Jh54OKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2Jh6IOKEeyz4o1LJu6UTw" type="_hwTYkIOKEeyz4o1LJu6UTw" direction="return"/>
+          <language>java</language>
+          <body>Task task = mainTasklist.get(i);
+		return task;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2Jh6YOKEeyz4o1LJu6UTw" name="FindTask" specification="_h04WkYOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2Jh6oOKEeyz4o1LJu6UTw" name="task" type="_hwTYkIOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h2Jh64OKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return mainTasklist.indexOf(task);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hwaGQIOKEeyz4o1LJu6UTw" name="Factory" method="_h2HssIOKEeyz4o1LJu6UTw">
+          <eAnnotations xmi:id="_hwaGQoOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hwaGQ4OKEeyz4o1LJu6UTw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hwaGQYOKEeyz4o1LJu6UTw" name="filePath">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hwaGRIOKEeyz4o1LJu6UTw" type="_hwZfMIOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwatUIOKEeyz4o1LJu6UTw" name="RemoveTask" method="_h2ITwIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwatUYOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwbUYIOKEeyz4o1LJu6UTw" name="TaskCount" method="_h2ITwoOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwbUYYOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwb7cIOKEeyz4o1LJu6UTw" name="GetTaskDescription" method="_h2I60IOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwb7cYOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hwb7coOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwb7c4OKEeyz4o1LJu6UTw" name="GetTaskStatus" method="_h2I604OKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwcigIOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hwcigYOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwcigoOKEeyz4o1LJu6UTw" name="GetTaskTime" method="_h2I61oOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwcig4OKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h1L4kIOKEeyz4o1LJu6UTw" type="_h0PdYYOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwdJkIOKEeyz4o1LJu6UTw" name="GetTaskCompleted" method="_h2I62YOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwdJkYOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hwdJkoOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwdwoIOKEeyz4o1LJu6UTw" name="GetTaskActive" method="_h2Jh4IOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwdwoYOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hwdwooOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hweXsIOKEeyz4o1LJu6UTw" name="GetTaskImportant" method="_h2Jh44OKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hweXsYOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_hweXsoOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hweXs4OKEeyz4o1LJu6UTw" name="GetTask" method="_h2Jh5oOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwe-wIOKEeyz4o1LJu6UTw" name="i">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h04WkIOKEeyz4o1LJu6UTw" type="_hwTYkIOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h04WkYOKEeyz4o1LJu6UTw" name="FindTask" method="_h2Jh6YOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h04WkoOKEeyz4o1LJu6UTw" name="task" type="_hwTYkIOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h04Wk4OKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h1LRgIOKEeyz4o1LJu6UTw" name="AddTask" method="_h2Hss4OKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1LRgYOKEeyz4o1LJu6UTw" name="description">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h1LRgoOKEeyz4o1LJu6UTw" name="date" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h1LRg4OKEeyz4o1LJu6UTw" name="completed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h1LRhIOKEeyz4o1LJu6UTw" name="important">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2bOsIOKEeyz4o1LJu6UTw" name="" memberEnd="_h2bOsYOKEeyz4o1LJu6UTw _h1OU0oOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2bOsYOKEeyz4o1LJu6UTw" name="" type="_hvhVcIOKEeyz4o1LJu6UTw" association="_h2bOsIOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2cc0YOKEeyz4o1LJu6UTw" name="" memberEnd="_h2cc0oOKEeyz4o1LJu6UTw _h1O74YOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2cc0oOKEeyz4o1LJu6UTw" name="" type="_hvhVcIOKEeyz4o1LJu6UTw" association="_h2cc0YOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2dD4YOKEeyz4o1LJu6UTw" name="" memberEnd="_h2dD4oOKEeyz4o1LJu6UTw _h1Pi8YOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2dD4oOKEeyz4o1LJu6UTw" name="" type="_hvhVcIOKEeyz4o1LJu6UTw" association="_h2dD4YOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2dq8YOKEeyz4o1LJu6UTw" name="" memberEnd="_h2dq8oOKEeyz4o1LJu6UTw _h1Pi84OKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2dq8oOKEeyz4o1LJu6UTw" name="" type="_hvpRQIOKEeyz4o1LJu6UTw" association="_h2dq8YOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2xM8YOKEeyz4o1LJu6UTw" name="" memberEnd="_h2xM8oOKEeyz4o1LJu6UTw _h10xwIOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2xM8oOKEeyz4o1LJu6UTw" name="" type="_hwZfMIOKEeyz4o1LJu6UTw" association="_h2xM8YOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_huokoIOKEeyz4o1LJu6UTw" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_huokoYOKEeyz4o1LJu6UTw" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hu6RcIOKEeyz4o1LJu6UTw" name="border">
+          <packagedElement xmi:type="uml:Class" xmi:id="_h0k0kYOKEeyz4o1LJu6UTw" name="TitledBorder"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_h0mCsYOKEeyz4o1LJu6UTw" name="EtchedBorder"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_h0vMoIOKEeyz4o1LJu6UTw" name="BevelBorder"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0R5oIOKEeyz4o1LJu6UTw" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0SgsYOKEeyz4o1LJu6UTw" name="JTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0cRsYOKEeyz4o1LJu6UTw" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0c4wYOKEeyz4o1LJu6UTw" name="JComboBox"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0df0YOKEeyz4o1LJu6UTw" name="DefaultComboBoxModel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0eG4YOKEeyz4o1LJu6UTw" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0fVAYOKEeyz4o1LJu6UTw" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0kNgIOKEeyz4o1LJu6UTw" name="DefaultListModel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0lboYOKEeyz4o1LJu6UTw" name="JList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0mpwIOKEeyz4o1LJu6UTw" name="JScrollPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0nQ0YOKEeyz4o1LJu6UTw" name="JPopupMenu"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0oe8YOKEeyz4o1LJu6UTw" name="JMenuItem"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0oe84OKEeyz4o1LJu6UTw" name="JSplitPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_h0swYIOKEeyz4o1LJu6UTw" name="ImageIcon"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_huzjwYOKEeyz4o1LJu6UTw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hu0K0IOKEeyz4o1LJu6UTw" name="toedter">
+        <packagedElement xmi:type="uml:Package" xmi:id="_hu0K0YOKEeyz4o1LJu6UTw" name="calendar">
+          <packagedElement xmi:type="uml:Class" xmi:id="_h0hKMYOKEeyz4o1LJu6UTw" name="JDateChooser"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hu1Y8IOKEeyz4o1LJu6UTw" name="gui">
+      <packagedElement xmi:type="uml:Class" xmi:id="_hv03cIOKEeyz4o1LJu6UTw" name="AddTaskGUI">
+        <ownedAttribute xmi:id="_h1QKAYOKEeyz4o1LJu6UTw" name="frmTaskAdder" visibility="private" type="_h0cRsYOKEeyz4o1LJu6UTw" association="_h2eSAYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1QxEIOKEeyz4o1LJu6UTw" name="textFieldShownTasks" visibility="private" type="_h0SgsYOKEeyz4o1LJu6UTw" association="_h2e5EYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1QxEoOKEeyz4o1LJu6UTw" name="btnAddTask" visibility="private" type="_h0fVAYOKEeyz4o1LJu6UTw" association="_h2fgIYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1RYIIOKEeyz4o1LJu6UTw" name="flag" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h1-iwIOKEeyz4o1LJu6UTw" name="main" specification="_hv2FkIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1-iwYOKEeyz4o1LJu6UTw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h1-iwoOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					AddTaskGUI window = new AddTaskGUI();
+					window.frmTaskAdder.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h1-iw4OKEeyz4o1LJu6UTw" name="AddTaskGUI" specification="_hv3TsIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1-ixIOKEeyz4o1LJu6UTw" type="_hv03cIOKEeyz4o1LJu6UTw" direction="return"/>
+          <language>java</language>
+          <body>initialize();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h1_J0IOKEeyz4o1LJu6UTw" name="initialize" specification="_hv36wIOKEeyz4o1LJu6UTw">
+          <language>java</language>
+          <body>frmTaskAdder = new JFrame();
+		frmTaskAdder.setTitle(&quot;TASK ADDER\n&quot;);
+		frmTaskAdder.setResizable(false);
+		frmTaskAdder.setBounds(100, 100, 426, 205);
+		frmTaskAdder.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frmTaskAdder.getContentPane().setLayout(null);
+		
+		JPanel panel = new JPanel();
+		panel.setBorder(null);
+		panel.setBounds(6, 6, 414, 166);
+		frmTaskAdder.getContentPane().add(panel);
+		panel.setLayout(null);
+		
+		JLabel lblWriteTask = new JLabel(&quot;DESCRIPTION&quot;);
+		lblWriteTask.setBounds(166, 10, 109, 16);
+		panel.add(lblWriteTask);
+		
+		JLabel lblshowDate = new JLabel(&quot;Date:&quot;);
+		lblshowDate.setBounds(20, 74, 61, 16);
+		panel.add(lblshowDate);
+		
+		JLabel lblcheckImportant = new JLabel(&quot;Important:&quot;);
+		lblcheckImportant.setBounds(20, 111, 68, 16);
+		panel.add(lblcheckImportant);
+		
+		JLabel lblStatus = new JLabel(&quot;In process of creating a task&quot;);
+		lblStatus.setToolTipText(&quot;A label will show the status of the process of adding a task&quot;);
+		lblStatus.setForeground(Color.RED);
+		lblStatus.setBounds(10, 139, 394, 16);
+		panel.add(lblStatus);
+		
+		textFieldShownTasks = new JTextField();
+		textFieldShownTasks.setToolTipText(&quot;Write here what the task is&quot;);
+		textFieldShownTasks.setBounds(10, 30, 394, 27);
+		panel.add(textFieldShownTasks);
+		textFieldShownTasks.setColumns(10);
+		
+		JDateChooser dateChooser = new JDateChooser();
+		dateChooser.setToolTipText(&quot;Choose the date here&quot;);
+		dateChooser.setBounds(131, 69, 124, 26);
+		panel.add(dateChooser);
+		
+		JComboBox&lt;String> comboBoxImportant = new JComboBox&lt;String>();
+		comboBoxImportant.setToolTipText(&quot;Choose whether the task is important or not that much&quot;);
+		comboBoxImportant.setModel(new DefaultComboBoxModel&lt;String>(new String[] {&quot;NO&quot;, &quot;YES&quot;}));
+		comboBoxImportant.setBounds(141, 107, 114, 27);
+		panel.add(comboBoxImportant);
+		
+		btnAddTask = new JButton(&quot;ADD TASK&quot;);
+		btnAddTask.setToolTipText(&quot;Click to add the newly created task\nNote: the date cannot be before the current date\n&quot;);
+		btnAddTask.setForeground(Color.BLUE);
+		btnAddTask.setBounds(267, 69, 136, 62);
+		panel.add(btnAddTask);
+		btnAddTask.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String description = textFieldShownTasks.getText();
+				Date chosenDate = dateChooser.getDate();
+				String strChosenDate = Constants.DateToString(chosenDate);
+				
+				Date reformedChosenDate = new Date();
+				try {
+					reformedChosenDate = new SimpleDateFormat(Constants.DateFormat).parse(strChosenDate);
+				} catch (ParseException e1) {
+					reformedChosenDate = new Date();
+				}
+				
+				String strImportant = String.valueOf(comboBoxImportant.getSelectedItem());
+				if (strImportant == &quot;NO&quot;)
+				{
+					strImportant = &quot;false&quot;;
+				}
+				else if (strImportant == &quot;YES&quot;)
+				{
+					strImportant = &quot;true&quot;;
+				}
+				
+				boolean important = Boolean.parseBoolean(strImportant);
+				boolean active = true;
+				
+				if (reformedChosenDate == null)
+				{
+					lblStatus.setText(&quot;Please select date to create and add a task&quot;);
+				}
+				else if (reformedChosenDate.compareTo(MWindowGUI.reformedToday) >= 0)
+				{
+					MWindowGUI.mainlogic.factory.AddTask(description, reformedChosenDate, active, important);
+					MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+					lblStatus.setText(&quot;Task created successfully&quot;);
+					frmTaskAdder.dispose();
+				}
+				else if(reformedChosenDate.compareTo(MWindowGUI.reformedToday) &lt; 0)
+				{
+					lblStatus.setText(&quot;Error, please try again (chosen date is earlier than current one)&quot;);
+				}
+				MWindowGUI.window.refresh();
+				MWindowGUI.lists.refresh_2();
+			}
+		});
+		frmTaskAdder.setVisible(true);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hv2FkIOKEeyz4o1LJu6UTw" name="main" isStatic="true" method="_h1-iwIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hv2FkYOKEeyz4o1LJu6UTw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hv2soIOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hv3TsIOKEeyz4o1LJu6UTw" name="AddTaskGUI" method="_h1-iw4OKEeyz4o1LJu6UTw">
+          <eAnnotations xmi:id="_hv3TsYOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hv3TsoOKEeyz4o1LJu6UTw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hv3Ts4OKEeyz4o1LJu6UTw" type="_hv03cIOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hv36wIOKEeyz4o1LJu6UTw" name="initialize" visibility="private" method="_h1_J0IOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hv5v8IOKEeyz4o1LJu6UTw" name="EditTaskGUI">
+        <ownedAttribute xmi:id="_h1RYIoOKEeyz4o1LJu6UTw" name="frmTaskEditor" visibility="private" type="_h0cRsYOKEeyz4o1LJu6UTw" association="_h2gHMYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1R_MYOKEeyz4o1LJu6UTw" name="textFieldShownTasks" type="_h0SgsYOKEeyz4o1LJu6UTw" association="_h2guQYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1R_M4OKEeyz4o1LJu6UTw" name="dateChooser" type="_h0hKMYOKEeyz4o1LJu6UTw" association="_h2hVUYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1SmQYOKEeyz4o1LJu6UTw" name="comboBoxImportant" type="_h0c4wYOKEeyz4o1LJu6UTw" association="_h2h8YYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1TNUYOKEeyz4o1LJu6UTw" name="btnDone" visibility="private" type="_h0fVAYOKEeyz4o1LJu6UTw" association="_h2ijcIOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1TNU4OKEeyz4o1LJu6UTw" name="flag" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h1_J0YOKEeyz4o1LJu6UTw" name="main" specification="_hv6-EIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1_J0oOKEeyz4o1LJu6UTw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h1_J04OKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					EditTaskGUI window = new EditTaskGUI();
+					window.frmTaskEditor.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h1_J1IOKEeyz4o1LJu6UTw" name="EditTaskGUI" specification="_hv8MMIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1_J1YOKEeyz4o1LJu6UTw" type="_hv5v8IOKEeyz4o1LJu6UTw" direction="return"/>
+          <language>java</language>
+          <body>initialize();
+		
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h1_w4IOKEeyz4o1LJu6UTw" name="initialize" specification="_hv8zQIOKEeyz4o1LJu6UTw">
+          <language>java</language>
+          <body>frmTaskEditor = new JFrame();
+		frmTaskEditor.setTitle(&quot;TASK EDITOR&quot;);
+		frmTaskEditor.setResizable(false);
+		frmTaskEditor.setBounds(100, 100, 427, 207);
+		frmTaskEditor.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frmTaskEditor.getContentPane().setLayout(null);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(6, 6, 414, 166);
+		frmTaskEditor.getContentPane().add(panel);
+		panel.setLayout(null);
+		
+		JLabel lblWriteTask = new JLabel(&quot;REWRITE THE DESCRIPTION&quot;);
+		lblWriteTask.setBounds(129, 10, 178, 16);
+		panel.add(lblWriteTask);
+		
+		JLabel lblshowDate = new JLabel(&quot;Date:&quot;);
+		lblshowDate.setBounds(20, 74, 61, 16);
+		panel.add(lblshowDate);
+		
+		JLabel lblcheckImportant = new JLabel(&quot;Important:&quot;);
+		lblcheckImportant.setBounds(20, 111, 68, 16);
+		panel.add(lblcheckImportant);
+		
+		JLabel lblStatus = new JLabel(&quot;In process of creating a task&quot;);
+		lblStatus.setToolTipText(&quot;A label will show the status of the process of editing a task&quot;);
+		lblStatus.setForeground(Color.RED);
+		lblStatus.setBounds(10, 139, 394, 16);
+		panel.add(lblStatus);
+		
+		textFieldShownTasks = new JTextField();
+		textFieldShownTasks.setToolTipText(&quot;Write here what the task is&quot;);
+		textFieldShownTasks.setBounds(10, 30, 394, 27);
+		panel.add(textFieldShownTasks);
+		textFieldShownTasks.setColumns(10);
+		
+		dateChooser = new JDateChooser();
+		dateChooser.setToolTipText(&quot;Choose the date here&quot;);
+		dateChooser.setBounds(131, 69, 124, 26);
+		panel.add(dateChooser);
+		
+		comboBoxImportant = new JComboBox&lt;String>();
+		comboBoxImportant.setToolTipText(&quot;Choose whether the task is important or not that much&quot;);
+		comboBoxImportant.setModel(new DefaultComboBoxModel&lt;String>(new String[] {&quot;NO&quot;, &quot;YES&quot;}));
+		comboBoxImportant.setBounds(141, 107, 114, 27);
+		panel.add(comboBoxImportant);
+		frmTaskEditor.setVisible(true);
+		
+		btnDone = new JButton(&quot;DONE&quot;);
+		btnDone.setToolTipText(&quot;Click to perform changes to a chosen task\n&quot;);
+		btnDone.setForeground(new Color(0, 128, 0));
+		btnDone.setBounds(267, 69, 136, 62);
+		panel.add(btnDone);
+		btnDone.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {	
+				String description = textFieldShownTasks.getText();
+				Date chosenDate = dateChooser.getDate();
+				String strChosenDate = Constants.DateToString(chosenDate);
+				
+				Date reformedChosenDate = new Date();
+				try {
+					reformedChosenDate = new SimpleDateFormat(Constants.DateFormat).parse(strChosenDate);
+				} catch (ParseException e2) {
+					reformedChosenDate = new Date();
+				}
+				
+				String strImportant = String.valueOf(comboBoxImportant.getSelectedItem());
+				if (strImportant == &quot;NO&quot;)
+				{
+					strImportant = &quot;false&quot;;
+				}
+				else if (strImportant == &quot;YES&quot;)
+				{
+					strImportant = &quot;true&quot;;
+				}
+				
+				boolean important = Boolean.parseBoolean(strImportant);
+				boolean completed = false;
+				
+				if (reformedChosenDate == null)
+				{
+					lblStatus.setText(&quot;Please select date to correctly edit a task&quot;);
+				}
+				else
+				{
+					MWindowGUI.mainlogic.editedTask.setDescription(description);
+					MWindowGUI.mainlogic.editedTask.setDueDate(reformedChosenDate);
+					MWindowGUI.mainlogic.editedTask.setCompleted(completed);
+					MWindowGUI.mainlogic.editedTask.setImportant(important);
+					MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+					frmTaskEditor.dispose();
+				}
+				MWindowGUI.window.refresh();
+				MWindowGUI.lists.refresh_2();
+			}
+		});
+		frmTaskEditor.setVisible(true);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hv6-EIOKEeyz4o1LJu6UTw" name="main" isStatic="true" method="_h1_J0YOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hv7lIIOKEeyz4o1LJu6UTw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hv7lIYOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hv8MMIOKEeyz4o1LJu6UTw" name="EditTaskGUI" method="_h1_J1IOKEeyz4o1LJu6UTw">
+          <eAnnotations xmi:id="_hv8MMYOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hv8MMoOKEeyz4o1LJu6UTw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hv8MM4OKEeyz4o1LJu6UTw" type="_hv5v8IOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hv8zQIOKEeyz4o1LJu6UTw" name="initialize" visibility="private" method="_h1_w4IOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hv-ocIOKEeyz4o1LJu6UTw" name="ListsOfTasksGUI">
+        <ownedAttribute xmi:id="_h1T0YYOKEeyz4o1LJu6UTw" name="frmListsOfTasks" visibility="private" type="_h0cRsYOKEeyz4o1LJu6UTw" association="_h2jKgYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1UbcYOKEeyz4o1LJu6UTw" name="listCompletedTasks" visibility="package" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2jxkYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1VpkIOKEeyz4o1LJu6UTw" name="completedTasksList" visibility="package" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2jxlIOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1WQoYOKEeyz4o1LJu6UTw" name="listActiveTasks" visibility="package" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2kYoYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1W3soOKEeyz4o1LJu6UTw" name="activeTasksList" visibility="package" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2k_sYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1YF0YOKEeyz4o1LJu6UTw" name="listImportantTasks" visibility="package" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2mN0YOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1Ys4oOKEeyz4o1LJu6UTw" name="importantTasksList" visibility="package" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2m04YOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1Z7AIOKEeyz4o1LJu6UTw" name="listOverdueTasks" visibility="package" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2nb8IOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1aiEIOKEeyz4o1LJu6UTw" name="overdueTasksList" visibility="package" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2oDAIOKEeyz4o1LJu6UTw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h1_w4YOKEeyz4o1LJu6UTw" name="main" specification="_hwAdoIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1_w4oOKEeyz4o1LJu6UTw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h1_w44OKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					ListsOfTasksGUI window2 = new ListsOfTasksGUI();
+					window2.frmListsOfTasks.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2AX8IOKEeyz4o1LJu6UTw" name="ListsOfTasksGUI" specification="_hwBEsYOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2AX8YOKEeyz4o1LJu6UTw" type="_hv-ocIOKEeyz4o1LJu6UTw" direction="return"/>
+          <language>java</language>
+          <body>initialize();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2AX8oOKEeyz4o1LJu6UTw" name="reorderLists_2" specification="_h1BggIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2AX84OKEeyz4o1LJu6UTw" name="modelTasksList" type="_h0kNgIOKEeyz4o1LJu6UTw"/>
+          <language>java</language>
+          <body>int listSize = modelTasksList.getSize();
+		Task[] listTasks = new Task[listSize];
+		for(int i = 0; i &lt; listSize;i++)
+		{
+			listTasks[i] = (Task)modelTasksList.getElementAt(i);
+		}
+		sortArrayTasks_2(listTasks);
+		for (int i = 0; i &lt; listSize;i++) 
+		{
+			modelTasksList.setElementAt(listTasks[i], i);
+		}     
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2AX9IOKEeyz4o1LJu6UTw" name="sortArrayTasks_2" specification="_h0qUIIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2AX9YOKEeyz4o1LJu6UTw" name="list" type="_hwTYkIOKEeyz4o1LJu6UTw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h2AX9oOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Task tmp;
+		if (list.length == 1) return;
+		for (int i = 0; i &lt; list.length; i++) 
+		{
+			for (int j = i + 1; j &lt; list.length; j++) 
+			{
+				Date date1 = list[i].getDueDate();
+				Date date2 = list[j].getDueDate();
+				if(date1.compareTo(date2) > 0) 
+				{
+			        tmp = list[i];
+			        list[i] = list[j];
+			        list[j] = tmp;
+		        }
+		    }
+		} 
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2A_AIOKEeyz4o1LJu6UTw" name="refresh_2" specification="_hwBrw4OKEeyz4o1LJu6UTw">
+          <language>java</language>
+          <body>completedTasksList.clear();
+		activeTasksList.clear();
+		importantTasksList.clear();
+		overdueTasksList.clear();
+		
+		for(int i = 0; i &lt; MWindowGUI.mainlogic.factory.TaskCount();i++)
+		{
+			Date chosendate = MWindowGUI.mainlogic.factory.GetTaskTime(i);
+			Boolean checkCompleted = MWindowGUI.mainlogic.factory.GetTaskCompleted(i);
+			if (checkCompleted == true) 
+			{
+				completedTasksList.addElement(MWindowGUI.mainlogic.factory.GetTask(i));
+			}
+			
+			Boolean checkActive = MWindowGUI.mainlogic.factory.GetTaskActive(i);
+			if (checkActive == true) 
+			{
+				activeTasksList.addElement(MWindowGUI.mainlogic.factory.GetTask(i));
+			}
+			
+			Boolean checkImportant = MWindowGUI.mainlogic.factory.GetTaskImportant(i);
+			if (checkImportant == true) 
+			{
+				importantTasksList.addElement(MWindowGUI.mainlogic.factory.GetTask(i));
+			}
+			
+			if (chosendate.compareTo(MWindowGUI.reformedToday) &lt; 0 &amp;&amp; checkCompleted == false)
+			{
+				overdueTasksList.addElement(MWindowGUI.mainlogic.factory.GetTask(i));
+			}
+			reorderLists_2(activeTasksList);
+			reorderLists_2(completedTasksList);
+			reorderLists_2(importantTasksList);
+			reorderLists_2(overdueTasksList);
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2A_AYOKEeyz4o1LJu6UTw" name="initialize" specification="_hwCS0IOKEeyz4o1LJu6UTw">
+          <language>java</language>
+          <body>frmListsOfTasks = new JFrame();
+		frmListsOfTasks.setTitle(&quot;LISTS OF TASKS&quot;);
+		frmListsOfTasks.setBounds(100, 100, 670, 636);
+		frmListsOfTasks.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frmListsOfTasks.getContentPane().setLayout(new GridLayout(0, 1, 0, 0));
+		
+		activeTasksList = new DefaultListModel&lt;>();
+		listActiveTasks = new JList&lt;>(activeTasksList);
+		listActiveTasks.setToolTipText(&quot;Left Click the task to edit or remove it&quot;);
+		
+		importantTasksList = new DefaultListModel&lt;>();
+		listImportantTasks = new JList&lt;>(importantTasksList);
+		listImportantTasks.setToolTipText(&quot;Left Click the task to edit or remove it&quot;);
+		
+		completedTasksList = new DefaultListModel&lt;>();
+		listCompletedTasks = new JList&lt;>(completedTasksList);
+		listCompletedTasks.setToolTipText(&quot;Left Click the task to edit or remove it&quot;);
+		
+		overdueTasksList = new DefaultListModel&lt;>();
+		listOverdueTasks = new JList&lt;>(overdueTasksList);
+		listOverdueTasks.setToolTipText(&quot;Left Click the task to edit or remove it&quot;);
+		
+		JSplitPane splitPaneAll_2 = new JSplitPane();
+		splitPaneAll_2.setOrientation(JSplitPane.VERTICAL_SPLIT);
+		frmListsOfTasks.getContentPane().add(splitPaneAll_2);
+		splitPaneAll_2.setDividerLocation(295);
+		
+		JSplitPane splitPanelCurrent = new JSplitPane();
+		splitPaneAll_2.setLeftComponent(splitPanelCurrent);
+		splitPanelCurrent.setDividerLocation(335);
+		
+		JSplitPane splitPaneMissed = new JSplitPane();
+		splitPaneAll_2.setRightComponent(splitPaneMissed);
+		splitPaneMissed.setDividerLocation(335);
+		
+		JLabel lblLabelDD4 = new JLabel(&quot;Date and Description:&quot;);
+		lblLabelDD4.setEnabled(false);
+		
+		JLabel lblLabelDD5 = new JLabel(&quot;Date and Description:&quot;);
+		lblLabelDD5.setEnabled(false);
+		
+		JLabel lblLabelDD6 = new JLabel(&quot;Date and Description:&quot;);
+		lblLabelDD6.setEnabled(false);
+		
+		JLabel lblLabelDD7 = new JLabel(&quot;Date and Description:&quot;);
+		lblLabelDD7.setEnabled(false);
+		
+		JScrollPane scrollPaneActive = new JScrollPane(listActiveTasks);
+		scrollPaneActive.setBorder(new TitledBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null), &quot;ACTIVE&quot;, TitledBorder.LEADING, TitledBorder.TOP, null, new Color(255, 160, 122)));
+		splitPanelCurrent.setLeftComponent(scrollPaneActive);
+		scrollPaneActive.setViewportView(listActiveTasks);
+		scrollPaneActive.setColumnHeaderView(lblLabelDD4);
+		
+		JScrollPane scrollPaneImportant = new JScrollPane(listImportantTasks);
+		scrollPaneImportant.setBorder(new TitledBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null), &quot;IMPORTANT&quot;, TitledBorder.LEADING, TitledBorder.TOP, null, new Color(255, 0, 0)));
+		splitPanelCurrent.setRightComponent(scrollPaneImportant);
+		scrollPaneImportant.setViewportView(listImportantTasks);
+		scrollPaneImportant.setColumnHeaderView(lblLabelDD5);
+		
+		JScrollPane scrollPaneCompleted = new JScrollPane(listCompletedTasks);
+		scrollPaneCompleted.setBorder(new TitledBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null), &quot;COMPLETED&quot;, TitledBorder.LEADING, TitledBorder.TOP, null, new Color(65, 105, 225)));
+		splitPaneMissed.setLeftComponent(scrollPaneCompleted);
+		scrollPaneCompleted.setViewportView(listCompletedTasks);
+		scrollPaneCompleted.setColumnHeaderView(lblLabelDD6);
+		
+		JScrollPane scrollPanelOverdue = new JScrollPane(listOverdueTasks);
+		scrollPanelOverdue.setBorder(new TitledBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null), &quot;OVERDUE&quot;, TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 128, 0)));
+		splitPaneMissed.setRightComponent(scrollPanelOverdue);
+		scrollPanelOverdue.setViewportView(listOverdueTasks);
+		scrollPanelOverdue.setColumnHeaderView(lblLabelDD7);
+		
+		JPopupMenu popupMenuActive = new JPopupMenu();
+		popupMenuActive.setToolTipText(&quot;Mark as Completed&quot;);
+		addPopup(listActiveTasks, popupMenuActive);
+		
+		JMenuItem mntmMACactive = new JMenuItem(&quot;Mark as Completed&quot;);
+		mntmMACactive.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listActiveTasks);
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(true);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuActive.add(mntmMACactive);
+		
+		JMenuItem mntmMAIactive = new JMenuItem(&quot;Mark as Incompleted&quot;);
+		mntmMAIactive.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listActiveTasks);
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(false);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuActive.add(mntmMAIactive);
+		
+		JMenuItem mntmMAIMactive = new JMenuItem(&quot;Mark as Important&quot;);
+		mntmMAIMactive.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listActiveTasks);
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(true);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuActive.add(mntmMAIMactive);
+		
+		JMenuItem mntmMAUIMactive = new JMenuItem(&quot;Mark as Unimportant&quot;);
+		mntmMAUIMactive.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listActiveTasks);
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(false);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+			}
+		});
+		popupMenuActive.add(mntmMAUIMactive);
+		
+		JMenuItem mntmRTactive = new JMenuItem(&quot;Remove task&quot;);
+		mntmRTactive.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listActiveTasks);
+				MWindowGUI.mainlogic.factory.RemoveTask(factoryIndex);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuActive.add(mntmRTactive);
+		
+		JMenuItem mntmETactive = new JMenuItem(&quot;Edit task&quot;);
+		mntmETactive.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listActiveTasks);
+				MWindowGUI.mainlogic.editedTask = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				MWindowGUI.initEditor();
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuActive.add(mntmETactive);
+		
+		JPopupMenu popupMenuImportant = new JPopupMenu();
+		popupMenuImportant.setToolTipText(&quot;Mark as Completed&quot;);
+		addPopup(listImportantTasks, popupMenuImportant);
+		
+		JMenuItem mntmMACimportant = new JMenuItem(&quot;Mark as Completed&quot;);
+		mntmMACimportant.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listImportantTasks);
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(true);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuImportant.add(mntmMACimportant);
+		
+		JMenuItem mntmMAIimportant = new JMenuItem(&quot;Mark as Incompleted&quot;);
+		mntmMAIimportant.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listImportantTasks);
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(false);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuImportant.add(mntmMAIimportant);
+		
+		JMenuItem mntmMAIMimportant = new JMenuItem(&quot;Mark as Important&quot;);
+		mntmMAIMimportant.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listImportantTasks);
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(true);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuImportant.add(mntmMAIMimportant);
+		
+		JMenuItem mntmMAUIMimportant = new JMenuItem(&quot;Mark as Unimportant&quot;);
+		mntmMAUIMimportant.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listImportantTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Mark as Incompleted&quot; + Integer.toString(factoryIndex));
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(false);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuImportant.add(mntmMAUIMimportant);
+		
+		JMenuItem mntmRTimportant = new JMenuItem(&quot;Remove task&quot;);
+		mntmRTimportant.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listImportantTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Remove task&quot;+ Integer.toString(factoryIndex));
+				MWindowGUI.mainlogic.factory.RemoveTask(factoryIndex);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuImportant.add(mntmRTimportant);
+		
+		JMenuItem mntmETimportant = new JMenuItem(&quot;Edit task&quot;);
+		mntmETimportant.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listImportantTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Edit Task&quot;+ Integer.toString(factoryIndex));
+				MWindowGUI.mainlogic.editedTask = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				MWindowGUI.initEditor();
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuImportant.add(mntmETimportant);
+		
+		JPopupMenu popupMenuCompleted = new JPopupMenu();
+		popupMenuCompleted.setToolTipText(&quot;Mark as Completed&quot;);
+		addPopup(listCompletedTasks, popupMenuCompleted);
+		
+		JMenuItem mntmMACcompleted = new JMenuItem(&quot;Mark as Completed&quot;);
+		mntmMACcompleted.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listCompletedTasks);
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(true);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuCompleted.add(mntmMACcompleted);
+		
+		JMenuItem mntmMAIcompleted = new JMenuItem(&quot;Mark as Incompleted&quot;);
+		mntmMAIcompleted.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listCompletedTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Mark as Incompleted&quot; + Integer.toString(factoryIndex));
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(false);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuCompleted.add(mntmMAIcompleted);
+		
+		JMenuItem mntmMAIMcompleted = new JMenuItem(&quot;Mark as Important&quot;);
+		mntmMAIMcompleted.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listCompletedTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Mark as Incompleted&quot; + Integer.toString(factoryIndex));
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(true);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuCompleted.add(mntmMAIMcompleted);
+		
+		JMenuItem mntmMAUIMcompleted = new JMenuItem(&quot;Mark as Unimportant&quot;);
+		mntmMAUIMcompleted.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listCompletedTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Mark as Incompleted&quot; + Integer.toString(factoryIndex));
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(false);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuCompleted.add(mntmMAUIMcompleted);
+		
+		JMenuItem mntmRTcompleted = new JMenuItem(&quot;Remove task&quot;);
+		mntmRTcompleted.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listCompletedTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Remove task&quot;+ Integer.toString(factoryIndex));
+				MWindowGUI.mainlogic.factory.RemoveTask(factoryIndex);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuCompleted.add(mntmRTcompleted);
+		
+		JMenuItem mntmETcompleted = new JMenuItem(&quot;Edit task&quot;);
+		mntmETcompleted.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listCompletedTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Edit Task&quot;+ Integer.toString(factoryIndex));
+				MWindowGUI.mainlogic.editedTask = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				MWindowGUI.initEditor();
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuCompleted.add(mntmETcompleted);
+		
+		JPopupMenu popupMenuOverdue = new JPopupMenu();
+		popupMenuOverdue.setToolTipText(&quot;Mark as Completed&quot;);
+		addPopup(listOverdueTasks, popupMenuOverdue);
+		
+		JMenuItem mntmMACoverdue = new JMenuItem(&quot;Mark as Completed&quot;);
+		mntmMACoverdue.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listOverdueTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Mark as overdue&quot; + Integer.toString(factoryIndex));
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(true);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuOverdue.add(mntmMACoverdue);
+		
+		JMenuItem mntmMAIoverdue = new JMenuItem(&quot;Mark as Incompleted&quot;);
+		mntmMAIoverdue.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listOverdueTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Mark as Inoverdue&quot; + Integer.toString(factoryIndex));
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(false);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuOverdue.add(mntmMAIoverdue);
+		
+		JMenuItem mntmMAIMoverdue = new JMenuItem(&quot;Mark as Important&quot;);
+		mntmMAIMoverdue.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listOverdueTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Mark as Inoverdue&quot; + Integer.toString(factoryIndex));
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(true);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuOverdue.add(mntmMAIMoverdue);
+		
+		JMenuItem mntmMAUIMoverdue = new JMenuItem(&quot;Mark as Unimportant&quot;);
+		mntmMAUIMoverdue.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listOverdueTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Mark as Inoverdue&quot; + Integer.toString(factoryIndex));
+				Task task = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(false);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuOverdue.add(mntmMAUIMoverdue);
+		
+		JMenuItem mntmRToverdue = new JMenuItem(&quot;Remove task&quot;);
+		mntmRToverdue.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listOverdueTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Remove task&quot;+ Integer.toString(factoryIndex));
+				MWindowGUI.mainlogic.factory.RemoveTask(factoryIndex);
+				MWindowGUI.mainlogic.saveTasksToFile(MWindowGUI.filePath);
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuOverdue.add(mntmRToverdue);
+		
+		JMenuItem mntmEToverdue = new JMenuItem(&quot;Edit task&quot;);
+		mntmEToverdue.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = MWindowGUI.getTaskfromList(listOverdueTasks);
+				//JOptionPane.showMessageDialog(mntmMACtoday, &quot;Edit Task&quot;+ Integer.toString(factoryIndex));
+				MWindowGUI.mainlogic.editedTask = MWindowGUI.mainlogic.factory.GetTask(factoryIndex);
+				MWindowGUI.initEditor();
+				MWindowGUI.window.refresh();
+				refresh_2();
+			}
+		});
+		popupMenuOverdue.add(mntmEToverdue);
+		
+		refresh_2();
+		frmListsOfTasks.setVisible(true);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2A_AoOKEeyz4o1LJu6UTw" name="addPopup" specification="_h1CHkYOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2A_A4OKEeyz4o1LJu6UTw" name="component" type="_h0mpwoOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h2A_BIOKEeyz4o1LJu6UTw" name="popup" type="_h0nQ0YOKEeyz4o1LJu6UTw">
+            <eAnnotations xmi:id="_h2A_BYOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_h2A_BoOKEeyz4o1LJu6UTw" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <language>java</language>
+          <body>component.addMouseListener(new MouseAdapter() {
+			public void mousePressed(MouseEvent e) {
+				if (e.isPopupTrigger()) {
+					showMenu(e);
+				}
+			}
+			public void mouseReleased(MouseEvent e) {
+				if (e.isPopupTrigger()) {
+					showMenu(e);
+				}
+			}
+			private void showMenu(MouseEvent e) {
+				popup.show(e.getComponent(), e.getX(), e.getY());
+			}
+		});
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hwAdoIOKEeyz4o1LJu6UTw" name="main" isStatic="true" method="_h1_w4YOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwAdoYOKEeyz4o1LJu6UTw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hwBEsIOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwBEsYOKEeyz4o1LJu6UTw" name="ListsOfTasksGUI" method="_h2AX8IOKEeyz4o1LJu6UTw">
+          <eAnnotations xmi:id="_hwBrwIOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hwBrwYOKEeyz4o1LJu6UTw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hwBrwoOKEeyz4o1LJu6UTw" type="_hv-ocIOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwBrw4OKEeyz4o1LJu6UTw" name="refresh_2" method="_h2A_AIOKEeyz4o1LJu6UTw"/>
+        <ownedOperation xmi:id="_hwCS0IOKEeyz4o1LJu6UTw" name="initialize" visibility="private" method="_h2A_AYOKEeyz4o1LJu6UTw"/>
+        <ownedOperation xmi:id="_h0qUIIOKEeyz4o1LJu6UTw" name="sortArrayTasks_2" visibility="private" method="_h2AX9IOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h0qUIYOKEeyz4o1LJu6UTw" name="list" type="_hwTYkIOKEeyz4o1LJu6UTw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h0qUIoOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h1BggIOKEeyz4o1LJu6UTw" name="reorderLists_2" visibility="private" method="_h2AX8oOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1BggYOKEeyz4o1LJu6UTw" name="modelTasksList" type="_h0kNgIOKEeyz4o1LJu6UTw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h1CHkYOKEeyz4o1LJu6UTw" name="addPopup" visibility="private" isStatic="true" method="_h2A_AoOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1CuoIOKEeyz4o1LJu6UTw" name="component" type="_h0mpwoOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h1CuoYOKEeyz4o1LJu6UTw" name="popup" type="_h0nQ0YOKEeyz4o1LJu6UTw">
+            <eAnnotations xmi:id="_h1CuooOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_h1Cuo4OKEeyz4o1LJu6UTw" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hwHLUIOKEeyz4o1LJu6UTw" name="MWindowGUI">
+        <ownedAttribute xmi:id="_h1bJIYOKEeyz4o1LJu6UTw" name="frmToDoList" visibility="private" type="_h0cRsYOKEeyz4o1LJu6UTw" association="_h2oDA4OKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1bwMYOKEeyz4o1LJu6UTw" name="lblDateHour" visibility="private" type="_h0eG4YOKEeyz4o1LJu6UTw" association="_h2oqEYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1bwM4OKEeyz4o1LJu6UTw" name="todayTasksList" visibility="private" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2pRIYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1cXQoOKEeyz4o1LJu6UTw" name="listTodayTasks" visibility="private" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2p4MYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1c-UoOKEeyz4o1LJu6UTw" name="statusTodayTasksList" visibility="private" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2qfQYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1eMcIOKEeyz4o1LJu6UTw" name="listTodayTasksStatus" visibility="private" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2rGUYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1ezgoOKEeyz4o1LJu6UTw" name="tomorrowTasksList" visibility="private" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2rtYYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1gBoYOKEeyz4o1LJu6UTw" name="listTomorrowTasks" visibility="private" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2rtZIOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1hPwYOKEeyz4o1LJu6UTw" name="statusTomorrowTasksList" visibility="private" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2sUcYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1id4IOKEeyz4o1LJu6UTw" name="listTomorrowTasksStatus" visibility="private" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2s7gYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1jE8YOKEeyz4o1LJu6UTw" name="weekTasksList" visibility="private" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2tikYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1kTEYOKEeyz4o1LJu6UTw" name="listWeekTasks" visibility="private" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2uJoYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1lhMYOKEeyz4o1LJu6UTw" name="statusWeekTasksList" visibility="private" type="_h0kNgIOKEeyz4o1LJu6UTw" association="_h2uwsYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1mvUYOKEeyz4o1LJu6UTw" name="listWeekTasksStatus" visibility="private" type="_h0lboYOKEeyz4o1LJu6UTw" association="_h2vXwIOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1nWYoOKEeyz4o1LJu6UTw" name="filePath" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_h1n9cIOKEeyz4o1LJu6UTw" value="&quot;/Users/dave1601/eclipse-workspace/Todolist/docs/mytasks.txt&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_h1n9coOKEeyz4o1LJu6UTw" name="mainlogic" isStatic="true" type="_hvhVcIOKEeyz4o1LJu6UTw" association="_h2vXw4OKEeyz4o1LJu6UTw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_h1okgIOKEeyz4o1LJu6UTw" value="new MainLogic(filePath)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_h1pLkIOKEeyz4o1LJu6UTw" name="window" isStatic="true" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2wl4IOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1pyoIOKEeyz4o1LJu6UTw" name="lists" isStatic="true" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2wl44OKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1qZsIOKEeyz4o1LJu6UTw" name="reformedToday" isStatic="true" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1rAwIOKEeyz4o1LJu6UTw" name="reformedTomorrow" isStatic="true" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+        <ownedAttribute xmi:id="_h1rn0IOKEeyz4o1LJu6UTw" name="reformedWeek" isStatic="true" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2BmEIOKEeyz4o1LJu6UTw" name="main" specification="_hwJnkIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2BmEYOKEeyz4o1LJu6UTw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h2CNIIOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Calendar calendar = Calendar.getInstance();
+					Date today = calendar.getTime();
+					String strToday = Constants.DateToString(today);
+					
+					calendar.add(Calendar.DAY_OF_YEAR,1);
+					Date tomorrow = calendar.getTime();
+					String strTomorrow = Constants.DateToString(tomorrow);
+					
+					calendar.add(Calendar.DAY_OF_YEAR,6);
+					Date week = calendar.getTime();
+					String strWeek = Constants.DateToString(week);
+					
+					try {
+						reformedToday = new SimpleDateFormat(Constants.DateFormat).parse(strToday);
+						reformedTomorrow = new SimpleDateFormat(Constants.DateFormat).parse(strTomorrow);
+						reformedWeek= new SimpleDateFormat(Constants.DateFormat).parse(strWeek);
+					} catch (ParseException e) {
+						reformedToday = new Date();
+						reformedTomorrow = new Date();
+						reformedWeek = new Date();
+					}
+					
+					window = new MWindowGUI();
+					window.frmToDoList.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2CNIYOKEeyz4o1LJu6UTw" name="getTaskfromList" specification="_h1Ej0IOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2CNIoOKEeyz4o1LJu6UTw" name="list" type="_h0lboYOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h2CNI4OKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int listIndex = list.getSelectedIndex();
+		if (listIndex &lt; 0)
+		{
+			return -1;
+		}
+		Task task = list.getModel().getElementAt(listIndex);
+		int factoryIndex = mainlogic.factory.FindTask(task);
+		if (factoryIndex &lt; 0)
+		{
+			return -1;
+		}
+		return factoryIndex;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2C0MIOKEeyz4o1LJu6UTw" name="reorderLists" specification="_h1Fx8IOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2C0MYOKEeyz4o1LJu6UTw" name="modelTasksList" type="_h0kNgIOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h2C0MoOKEeyz4o1LJu6UTw" name="modelStatusTasksList" type="_h0kNgIOKEeyz4o1LJu6UTw"/>
+          <language>java</language>
+          <body>int listSize = modelTasksList.getSize();
+		Task[] listTasks = new Task[listSize];
+		String[] listStatusTasks = new String[listSize];
+		for(int i = 0; i &lt; listSize;i++)
+		{
+			listTasks[i] = (Task)modelTasksList.getElementAt(i);
+			listStatusTasks[i] = (String)modelStatusTasksList.getElementAt(i);
+		}
+		sortArrayTasks(listTasks, listStatusTasks);
+		for (int i = 0; i &lt; listSize;i++) 
+		{
+			modelTasksList.setElementAt(listTasks[i], i);
+			modelStatusTasksList.setElementAt(listStatusTasks[i], i);
+		}    
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2C0M4OKEeyz4o1LJu6UTw" name="sortArrayTasks" specification="_h0wawIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2C0NIOKEeyz4o1LJu6UTw" name="list" type="_hwTYkIOKEeyz4o1LJu6UTw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h2C0NYOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h2C0NoOKEeyz4o1LJu6UTw" name="listStatus">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h2C0N4OKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Task tmp;
+		String strTmp = &quot;&quot;;
+		if (list.length == 1) return;
+		for (int i = 0; i &lt; list.length; i++) 
+		{
+			for (int j = i + 1; j &lt; list.length; j++) 
+			{
+				Date date1 = list[i].getDueDate();
+				Date date2 = list[j].getDueDate();
+				String task1Status = listStatus[i];
+				String task2Status = listStatus[j];
+				
+				if(date1.compareTo(date2) > 0) 
+				{
+			        tmp = list[i];
+			        list[i] = list[j];
+			        list[j] = tmp;
+			        
+			        strTmp = task1Status;
+			        task1Status = task2Status;
+			        task2Status = strTmp;
+		        }
+		    }
+		} 
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2C0OIOKEeyz4o1LJu6UTw" name="refresh" specification="_hwK1sIOKEeyz4o1LJu6UTw">
+          <language>java</language>
+          <body>todayTasksList.clear();
+		statusTodayTasksList.clear();
+		
+		tomorrowTasksList.clear();
+		statusTomorrowTasksList.clear();
+		
+		weekTasksList.clear();
+		statusWeekTasksList.clear();
+		
+		for(int i = 0; i &lt; mainlogic.factory.TaskCount();i++)
+		{
+			Date chosendate = mainlogic.factory.GetTaskTime(i);
+			boolean statusActive = mainlogic.factory.GetTaskActive(i);
+			
+			if (chosendate.compareTo(reformedToday) == 0 )
+			{
+				todayTasksList.addElement(mainlogic.factory.GetTask(i));
+				statusTodayTasksList.addElement(mainlogic.factory.GetTaskStatus(i));
+			}
+			
+			if (chosendate.compareTo(reformedToday) &lt; 0 &amp;&amp; statusActive == true )
+			{
+				todayTasksList.addElement(mainlogic.factory.GetTask(i));
+				statusTodayTasksList.addElement(mainlogic.factory.GetTaskStatus(i) + &quot;Overdue&quot;);
+			}
+			
+			if (chosendate.compareTo(reformedToday) >= 0)
+			{
+				if (chosendate.compareTo(reformedTomorrow) == 0 )
+				{
+					tomorrowTasksList.addElement(mainlogic.factory.GetTask(i));
+					statusTomorrowTasksList.addElement(mainlogic.factory.GetTaskStatus(i));
+				}
+				
+				if (chosendate.compareTo(reformedWeek) &lt; 0)
+				{
+					weekTasksList.addElement(mainlogic.factory.GetTask(i));
+					statusWeekTasksList.addElement(mainlogic.factory.GetTaskStatus(i));
+				}
+			}			
+		}
+		reorderLists(weekTasksList, statusWeekTasksList);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2DbQIOKEeyz4o1LJu6UTw" name="initEditor" specification="_hwK1sYOKEeyz4o1LJu6UTw">
+          <language>java</language>
+          <body>EditTaskGUI UFGUI = new EditTaskGUI();
+		UFGUI.textFieldShownTasks.setText(mainlogic.editedTask.getDescription());
+		UFGUI.dateChooser.setDate(mainlogic.editedTask.getDueDate());
+		boolean statusImp = mainlogic.editedTask.getImportant();
+		if (statusImp == false)
+		{
+			UFGUI.comboBoxImportant.setSelectedIndex(0);
+		}
+		else
+		{
+			UFGUI.comboBoxImportant.setSelectedIndex(1);
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2DbQYOKEeyz4o1LJu6UTw" name="MWindowGUI" specification="_hwLcwIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2DbQoOKEeyz4o1LJu6UTw" type="_hwHLUIOKEeyz4o1LJu6UTw" direction="return"/>
+          <language>java</language>
+          <body>initialize();
+		clock();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2DbQ4OKEeyz4o1LJu6UTw" name="clock" specification="_hwLcxIOKEeyz4o1LJu6UTw">
+          <language>java</language>
+          <body>Thread clock = new Thread()
+		{
+			public void run()
+			{
+				try {
+					for(;;) {
+					Calendar cal = new GregorianCalendar();
+					int day = cal.get(Calendar.DAY_OF_MONTH);
+					int month = cal.get(Calendar.MONTH) + 1;
+					int year = cal.get(Calendar.YEAR);
+					int second = cal.get(Calendar.SECOND);
+					int minute = cal.get(Calendar.MINUTE);
+					int hour = cal.get(Calendar.HOUR);
+					
+					lblDateHour.setText(&quot;Time  &quot;+ hour+&quot;:&quot;+minute+&quot;:&quot;+second+&quot;  Date &quot;+year+&quot;/&quot;+month+&quot;/&quot;+day);
+					
+					sleep(1000);
+					}
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		};
+		clock.start();	
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2DbRIOKEeyz4o1LJu6UTw" name="initialize" specification="_hwMD0IOKEeyz4o1LJu6UTw">
+          <language>java</language>
+          <body>frmToDoList = new JFrame();
+		frmToDoList.setVisible(true);
+		frmToDoList.setBackground(Color.WHITE);
+		frmToDoList.setForeground(Color.WHITE);
+		frmToDoList.setTitle(&quot;TO DO LIST&quot;);
+		frmToDoList.setBounds(100, 100, 798, 707);
+		frmToDoList.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frmToDoList.getContentPane().setLayout(new GridLayout(0, 1, 0, 0));
+		
+		todayTasksList = new DefaultListModel&lt;>();
+		statusTodayTasksList = new DefaultListModel&lt;>();
+		statusTodayTasksList.addElement(&quot;something&quot;);
+		listTodayTasks = new JList&lt;>(todayTasksList);
+		listTodayTasks.setToolTipText(&quot;Left Click the task to edit or remove it&quot;);
+		listTodayTasks.setFont(new Font(&quot;Lucida Grande&quot;, Font.PLAIN, 12));
+		listTodayTasksStatus = new JList&lt;>(statusTodayTasksList);
+		listTodayTasksStatus.setToolTipText(&quot;A today's tasks list showing whether the tasks \nare important, completed, active or overdue&quot;);
+		listTodayTasksStatus.setForeground(Color.RED);
+		listTodayTasksStatus.setFont(new Font(&quot;Lucida Grande&quot;, Font.BOLD, 12));
+		
+		tomorrowTasksList = new DefaultListModel&lt;>();
+		statusTomorrowTasksList = new DefaultListModel&lt;>();
+		statusTomorrowTasksList.addElement(&quot;something&quot;);
+		listTomorrowTasks = new JList&lt;>(tomorrowTasksList);
+		listTomorrowTasks.setToolTipText(&quot;Left Click the task to edit or remove it&quot;);
+		listTomorrowTasks.setFont(new Font(&quot;Lucida Grande&quot;, Font.PLAIN, 12));
+		listTomorrowTasksStatus = new JList&lt;>(statusTomorrowTasksList);
+		listTomorrowTasksStatus.setToolTipText(&quot;A tomorrow's tasks list showing whether the tasks \nare important, completed, active or overdue&quot;);
+		listTomorrowTasksStatus.setForeground(Color.RED);
+		listTomorrowTasksStatus.setFont(new Font(&quot;Lucida Grande&quot;, Font.BOLD, 12));
+			
+		weekTasksList = new DefaultListModel&lt;>();
+		statusWeekTasksList = new DefaultListModel&lt;>();
+		statusWeekTasksList.addElement(&quot;something&quot;);
+		listWeekTasks = new JList&lt;>(weekTasksList);
+		listWeekTasks.setToolTipText(&quot;Left Click the task to edit or remove it&quot;);
+		listWeekTasks.setFont(new Font(&quot;Lucida Grande&quot;, Font.PLAIN, 12));
+		listWeekTasksStatus = new JList&lt;>(statusWeekTasksList);
+		listWeekTasksStatus.setToolTipText(&quot;A week's tasks list showing whether the tasks \nare important, completed, active or overdue&quot;);
+		listWeekTasksStatus.setForeground(Color.RED);
+		listWeekTasksStatus.setFont(new Font(&quot;Lucida Grande&quot;, Font.BOLD, 12));
+		
+		JSplitPane splitPaneAll = new JSplitPane();
+		frmToDoList.getContentPane().add(splitPaneAll);
+		splitPaneAll.setOrientation(JSplitPane.VERTICAL_SPLIT);
+		splitPaneAll.setDividerLocation(325);
+		
+		JSplitPane splitPaneTop = new JSplitPane();
+		splitPaneAll.setLeftComponent(splitPaneTop);
+		splitPaneTop.setDividerLocation(400);
+		
+		JSplitPane splitPaneBot = new JSplitPane();
+		splitPaneAll.setRightComponent(splitPaneBot);
+		splitPaneBot.setDividerLocation(400);
+		
+		JLabel lblLabelDD = new JLabel(&quot;Date and Description:&quot;);
+		lblLabelDD.setEnabled(false);
+		
+		JLabel lblLabelDD2 = new JLabel(&quot;Date and Description:&quot;);
+		lblLabelDD2.setEnabled(false);
+		
+		JLabel lblLabelDD3 = new JLabel(&quot;Date and Description:&quot;);
+		lblLabelDD3.setEnabled(false);
+		
+		JScrollPane scrollPaneToday = new JScrollPane();
+		scrollPaneToday.setBorder(new TitledBorder(null, &quot;Today's Tasks&quot;, TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		scrollPaneToday.setBounds(16, 53, 600, 411);
+		scrollPaneToday.setViewportView(listTodayTasks);
+		scrollPaneToday.setRowHeaderView(listTodayTasksStatus);
+		splitPaneTop.setLeftComponent(scrollPaneToday);
+		scrollPaneToday.setColumnHeaderView(lblLabelDD);
+		
+		JScrollPane scrollPaneTomorrow = new JScrollPane();
+		scrollPaneTomorrow.setBorder(new TitledBorder(null, &quot;Tomorrow's Tasks&quot;, TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		splitPaneBot.setLeftComponent(scrollPaneTomorrow);
+		scrollPaneTomorrow.setViewportView(listTomorrowTasks);
+		scrollPaneTomorrow.setRowHeaderView(listTomorrowTasksStatus);
+		scrollPaneTomorrow.setColumnHeaderView(lblLabelDD2);
+		
+		JScrollPane scrollPaneWeek = new JScrollPane();
+		scrollPaneWeek.setBorder(new TitledBorder(null, &quot;Week's Tasks&quot;, TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		splitPaneBot.setRightComponent(scrollPaneWeek);
+		scrollPaneWeek.setViewportView(listWeekTasks);
+		scrollPaneWeek.setRowHeaderView(listWeekTasksStatus);
+		scrollPaneWeek.setColumnHeaderView(lblLabelDD3);
+		
+		JPopupMenu popupMenuToday = new JPopupMenu();
+		popupMenuToday.setToolTipText(&quot;Mark as Completed&quot;);
+		addPopup(listTodayTasks, popupMenuToday);
+		
+		JMenuItem mntmMACtoday = new JMenuItem(&quot;Mark as Completed&quot;);
+		mntmMACtoday.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTodayTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(true);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();	
+			}
+		});
+		popupMenuToday.add(mntmMACtoday);
+		
+		JMenuItem mntmMAItoday = new JMenuItem(&quot;Mark as Incompleted&quot;);
+		mntmMAItoday.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTodayTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(false);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();	
+			}
+		});
+		popupMenuToday.add(mntmMAItoday);
+		
+		JMenuItem mntmMAIMtoday = new JMenuItem(&quot;Mark as Important&quot;);
+		mntmMAIMtoday.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTodayTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(true);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();	
+			}
+		});
+		popupMenuToday.add(mntmMAIMtoday);
+		
+		JMenuItem mntmMAUIMtoday = new JMenuItem(&quot;Mark as Unimportant&quot;);
+		mntmMAUIMtoday.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTodayTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(false);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();	
+			}
+		});
+		popupMenuToday.add(mntmMAUIMtoday);
+		
+		JMenuItem mntmRTtoday = new JMenuItem(&quot;Remove task&quot;);
+		mntmRTtoday.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTodayTasks);
+				mainlogic.factory.RemoveTask(factoryIndex);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();	
+			}
+		});
+		popupMenuToday.add(mntmRTtoday);
+		
+		JMenuItem mntmETtoday = new JMenuItem(&quot;Edit task&quot;);
+		mntmETtoday.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTodayTasks);
+				mainlogic.editedTask = mainlogic.factory.GetTask(factoryIndex);
+				initEditor();
+				refresh();
+				lists.refresh_2();	
+			}
+		});
+		popupMenuToday.add(mntmETtoday);
+		
+		JPopupMenu popupMenuTomorrow = new JPopupMenu();
+		popupMenuTomorrow.setToolTipText(&quot;Mark as Completed&quot;);
+		addPopup(listTomorrowTasks, popupMenuTomorrow);
+		
+		JMenuItem mntmMACtomorrow = new JMenuItem(&quot;Mark as Completed&quot;);
+		mntmMACtomorrow.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTomorrowTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(true);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuTomorrow.add(mntmMACtomorrow);
+		
+		JMenuItem mntmMAItomorrow = new JMenuItem(&quot;Mark as Incompleted&quot;);
+		mntmMAItomorrow.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTomorrowTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(false);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuTomorrow.add(mntmMAItomorrow);
+		
+		JMenuItem mntmMAIMtomorrow = new JMenuItem(&quot;Mark as Important&quot;);
+		mntmMAIMtomorrow.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTomorrowTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(true);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuTomorrow.add(mntmMAIMtomorrow);
+		
+		JMenuItem mntmMAUIMtomorrow = new JMenuItem(&quot;Mark as Unimportant&quot;);
+		mntmMAUIMtomorrow.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTomorrowTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(false);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuTomorrow.add(mntmMAUIMtomorrow);
+		
+		JMenuItem mntmRTtomorrow = new JMenuItem(&quot;Remove task&quot;);
+		mntmRTtomorrow.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTomorrowTasks);
+				mainlogic.factory.RemoveTask(factoryIndex);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuTomorrow.add(mntmRTtomorrow);
+		
+		JMenuItem mntmETtomorrow = new JMenuItem(&quot;Edit task&quot;);
+		mntmETtomorrow.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listTomorrowTasks);
+				mainlogic.editedTask = mainlogic.factory.GetTask(factoryIndex);
+				initEditor();
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuTomorrow.add(mntmETtomorrow);
+		
+		JPopupMenu popupMenuWeek = new JPopupMenu();
+		popupMenuWeek.setToolTipText(&quot;Mark as Completed&quot;);
+		addPopup(listWeekTasks, popupMenuWeek);
+		
+		JMenuItem mntmMACweek = new JMenuItem(&quot;Mark as Completed&quot;);
+		mntmMACweek.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listWeekTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(true);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuWeek.add(mntmMACweek);
+		
+		JMenuItem mntmMAIweek = new JMenuItem(&quot;Mark as Incompleted&quot;);
+		mntmMAIweek.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listWeekTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setCompleted(false);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuWeek.add(mntmMAIweek);
+		
+		JMenuItem mntmMAIMweek = new JMenuItem(&quot;Mark as Important&quot;);
+		mntmMAIMweek.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listWeekTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(true);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuWeek.add(mntmMAIMweek);
+		
+		JMenuItem mntmMAUIMweek = new JMenuItem(&quot;Mark as Unimportant&quot;);
+		mntmMAUIMweek.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listWeekTasks);
+				Task task = mainlogic.factory.GetTask(factoryIndex);
+				task.setImportant(false);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuWeek.add(mntmMAUIMweek);
+		
+		JMenuItem mntmRTweek = new JMenuItem(&quot;Remove task&quot;);
+		mntmRTweek.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listWeekTasks);
+				mainlogic.factory.RemoveTask(factoryIndex);
+				mainlogic.saveTasksToFile(filePath);
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuWeek.add(mntmRTweek);
+		
+		JMenuItem mntmETweek = new JMenuItem(&quot;Edit task&quot;);
+		mntmETweek.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				int factoryIndex = getTaskfromList(listWeekTasks);
+				mainlogic.editedTask = mainlogic.factory.GetTask(factoryIndex);
+				initEditor();
+				refresh();
+				lists.refresh_2();
+			}
+		});
+		popupMenuWeek.add(mntmETweek);
+		
+		JPanel panelData = new JPanel();
+		splitPaneTop.setRightComponent(panelData);
+		panelData.setLayout(null);
+		
+		lblDateHour = new JLabel(&quot;DATE &amp; HOUR&quot;);
+		lblDateHour.setBounds(19, 6, 289, 22);
+		panelData.add(lblDateHour);
+		lblDateHour.setFont(new Font(&quot;Lucida Grande&quot;, Font.PLAIN, 18));
+		
+		JButton btnListsTasks = new JButton(&quot;LISTS OF TASKS&quot;);
+		btnListsTasks.setForeground(Color.BLUE);
+		btnListsTasks.setBackground(Color.GREEN);
+		btnListsTasks.setBounds(39, 201, 141, 102);
+		btnListsTasks.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				lists = new ListsOfTasksGUI();
+			}
+		});
+		panelData.add(btnListsTasks);
+		btnListsTasks.setToolTipText(&quot;Click to display completed, active, important and overdue tasks&quot;);
+			
+		JButton btnAddTask = new JButton(&quot;ADD TASK&quot;);
+		btnAddTask.setForeground(new Color(255, 99, 71));
+		btnAddTask.setBounds(209, 201, 141, 102);
+		panelData.add(btnAddTask);
+		btnAddTask.setToolTipText(&quot;Click to add a new task&quot;);
+		btnAddTask.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new AddTaskGUI();
+			}
+		});
+	
+		JLabel lblNiceDayPNG = new JLabel(&quot;&quot;);
+		lblNiceDayPNG.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		lblNiceDayPNG.setBackground(Color.WHITE);
+		lblNiceDayPNG.setBounds(19, 40, 350, 149);
+		panelData.add(lblNiceDayPNG);
+		lblNiceDayPNG.setIcon(new ImageIcon(MWindowGUI.class.getResource(&quot;/images/niceday.png&quot;)));
+		
+		refresh();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_h2ECUIOKEeyz4o1LJu6UTw" name="addPopup" specification="_h1HAEIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h2ECUYOKEeyz4o1LJu6UTw" name="component" type="_h0mpwoOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h2ECUoOKEeyz4o1LJu6UTw" name="popup" type="_h0nQ0YOKEeyz4o1LJu6UTw">
+            <eAnnotations xmi:id="_h2ECU4OKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_h2ECVIOKEeyz4o1LJu6UTw" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+          <language>java</language>
+          <body>component.addMouseListener(new MouseAdapter() {
+			public void mousePressed(MouseEvent e) {
+				if (e.isPopupTrigger()) {
+					showMenu(e);
+				}
+			}
+			public void mouseReleased(MouseEvent e) {
+				if (e.isPopupTrigger()) {
+					showMenu(e);
+				}
+			}
+			private void showMenu(MouseEvent e) {
+				popup.show(e.getComponent(), e.getX(), e.getY());
+			}
+		});
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_hwJnkIOKEeyz4o1LJu6UTw" name="main" isStatic="true" method="_h2BmEIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_hwJnkYOKEeyz4o1LJu6UTw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hwKOoIOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwK1sIOKEeyz4o1LJu6UTw" name="refresh" method="_h2C0OIOKEeyz4o1LJu6UTw"/>
+        <ownedOperation xmi:id="_hwK1sYOKEeyz4o1LJu6UTw" name="initEditor" isStatic="true" method="_h2DbQIOKEeyz4o1LJu6UTw"/>
+        <ownedOperation xmi:id="_hwLcwIOKEeyz4o1LJu6UTw" name="MWindowGUI" method="_h2DbQYOKEeyz4o1LJu6UTw">
+          <eAnnotations xmi:id="_hwLcwYOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hwLcwoOKEeyz4o1LJu6UTw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_hwLcw4OKEeyz4o1LJu6UTw" type="_hwHLUIOKEeyz4o1LJu6UTw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_hwLcxIOKEeyz4o1LJu6UTw" name="clock" visibility="private" method="_h2DbQ4OKEeyz4o1LJu6UTw"/>
+        <ownedOperation xmi:id="_hwMD0IOKEeyz4o1LJu6UTw" name="initialize" visibility="private" method="_h2DbRIOKEeyz4o1LJu6UTw"/>
+        <ownedOperation xmi:id="_h0wawIOKEeyz4o1LJu6UTw" name="sortArrayTasks" visibility="private" method="_h2C0M4OKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h0xB0IOKEeyz4o1LJu6UTw" name="list" type="_hwTYkIOKEeyz4o1LJu6UTw">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h0xB0oOKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_h0xB0YOKEeyz4o1LJu6UTw" name="listStatus">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_h0xB04OKEeyz4o1LJu6UTw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h1Ej0IOKEeyz4o1LJu6UTw" name="getTaskfromList" isStatic="true" method="_h2CNIYOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1Ej0YOKEeyz4o1LJu6UTw" name="list" type="_h0lboYOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h1FK4IOKEeyz4o1LJu6UTw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h1Fx8IOKEeyz4o1LJu6UTw" name="reorderLists" visibility="private" method="_h2C0MIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1Fx8YOKEeyz4o1LJu6UTw" name="modelTasksList" type="_h0kNgIOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h1Fx8oOKEeyz4o1LJu6UTw" name="modelStatusTasksList" type="_h0kNgIOKEeyz4o1LJu6UTw"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_h1HAEIOKEeyz4o1LJu6UTw" name="addPopup" visibility="private" isStatic="true" method="_h2ECUIOKEeyz4o1LJu6UTw">
+          <ownedParameter xmi:id="_h1HAEYOKEeyz4o1LJu6UTw" name="component" type="_h0mpwoOKEeyz4o1LJu6UTw"/>
+          <ownedParameter xmi:id="_h1HAEoOKEeyz4o1LJu6UTw" name="popup" type="_h0nQ0YOKEeyz4o1LJu6UTw">
+            <eAnnotations xmi:id="_h1HAE4OKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_h1HAFIOKEeyz4o1LJu6UTw" key="final"/>
+            </eAnnotations>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2eSAYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2eSAoOKEeyz4o1LJu6UTw _h1QKAYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2eSAoOKEeyz4o1LJu6UTw" name="" type="_hv03cIOKEeyz4o1LJu6UTw" association="_h2eSAYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2e5EYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2e5EoOKEeyz4o1LJu6UTw _h1QxEIOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2e5EoOKEeyz4o1LJu6UTw" name="" type="_hv03cIOKEeyz4o1LJu6UTw" association="_h2e5EYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2fgIYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2fgIoOKEeyz4o1LJu6UTw _h1QxEoOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2fgIoOKEeyz4o1LJu6UTw" name="" type="_hv03cIOKEeyz4o1LJu6UTw" association="_h2fgIYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2gHMYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2gHMoOKEeyz4o1LJu6UTw _h1RYIoOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2gHMoOKEeyz4o1LJu6UTw" name="" type="_hv5v8IOKEeyz4o1LJu6UTw" association="_h2gHMYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2guQYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2guQoOKEeyz4o1LJu6UTw _h1R_MYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2guQoOKEeyz4o1LJu6UTw" name="" type="_hv5v8IOKEeyz4o1LJu6UTw" association="_h2guQYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2hVUYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2hVUoOKEeyz4o1LJu6UTw _h1R_M4OKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2hVUoOKEeyz4o1LJu6UTw" name="" type="_hv5v8IOKEeyz4o1LJu6UTw" association="_h2hVUYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2h8YYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2h8YoOKEeyz4o1LJu6UTw _h1SmQYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2h8YoOKEeyz4o1LJu6UTw" name="" type="_hv5v8IOKEeyz4o1LJu6UTw" association="_h2h8YYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2ijcIOKEeyz4o1LJu6UTw" name="" memberEnd="_h2ijcYOKEeyz4o1LJu6UTw _h1TNUYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2ijcYOKEeyz4o1LJu6UTw" name="" type="_hv5v8IOKEeyz4o1LJu6UTw" association="_h2ijcIOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2jKgYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2jKgoOKEeyz4o1LJu6UTw _h1T0YYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2jKgoOKEeyz4o1LJu6UTw" name="" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2jKgYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2jxkYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2jxkoOKEeyz4o1LJu6UTw _h1UbcYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2jxkoOKEeyz4o1LJu6UTw" name="" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2jxkYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2jxlIOKEeyz4o1LJu6UTw" name="" memberEnd="_h2jxlYOKEeyz4o1LJu6UTw _h1VpkIOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2jxlYOKEeyz4o1LJu6UTw" name="" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2jxlIOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2kYoYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2kYooOKEeyz4o1LJu6UTw _h1WQoYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2kYooOKEeyz4o1LJu6UTw" name="" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2kYoYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2k_sYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2k_soOKEeyz4o1LJu6UTw _h1W3soOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2k_soOKEeyz4o1LJu6UTw" name="" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2k_sYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2mN0YOKEeyz4o1LJu6UTw" name="" memberEnd="_h2mN0oOKEeyz4o1LJu6UTw _h1YF0YOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2mN0oOKEeyz4o1LJu6UTw" name="" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2mN0YOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2m04YOKEeyz4o1LJu6UTw" name="" memberEnd="_h2m04oOKEeyz4o1LJu6UTw _h1Ys4oOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2m04oOKEeyz4o1LJu6UTw" name="" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2m04YOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2nb8IOKEeyz4o1LJu6UTw" name="" memberEnd="_h2nb8YOKEeyz4o1LJu6UTw _h1Z7AIOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2nb8YOKEeyz4o1LJu6UTw" name="" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2nb8IOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2oDAIOKEeyz4o1LJu6UTw" name="" memberEnd="_h2oDAYOKEeyz4o1LJu6UTw _h1aiEIOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2oDAYOKEeyz4o1LJu6UTw" name="" type="_hv-ocIOKEeyz4o1LJu6UTw" association="_h2oDAIOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2oDA4OKEeyz4o1LJu6UTw" name="" memberEnd="_h2oDBIOKEeyz4o1LJu6UTw _h1bJIYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2oDBIOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2oDA4OKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2oqEYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2oqEoOKEeyz4o1LJu6UTw _h1bwMYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2oqEoOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2oqEYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2pRIYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2pRIoOKEeyz4o1LJu6UTw _h1bwM4OKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2pRIoOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2pRIYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2p4MYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2p4MoOKEeyz4o1LJu6UTw _h1cXQoOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2p4MoOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2p4MYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2qfQYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2qfQoOKEeyz4o1LJu6UTw _h1c-UoOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2qfQoOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2qfQYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2rGUYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2rGUoOKEeyz4o1LJu6UTw _h1eMcIOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2rGUoOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2rGUYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2rtYYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2rtYoOKEeyz4o1LJu6UTw _h1ezgoOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2rtYoOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2rtYYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2rtZIOKEeyz4o1LJu6UTw" name="" memberEnd="_h2rtZYOKEeyz4o1LJu6UTw _h1gBoYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2rtZYOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2rtZIOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2sUcYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2sUcoOKEeyz4o1LJu6UTw _h1hPwYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2sUcoOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2sUcYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2s7gYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2s7goOKEeyz4o1LJu6UTw _h1id4IOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2s7goOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2s7gYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2tikYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2tikoOKEeyz4o1LJu6UTw _h1jE8YOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2tikoOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2tikYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2uJoYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2uJooOKEeyz4o1LJu6UTw _h1kTEYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2uJooOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2uJoYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2uwsYOKEeyz4o1LJu6UTw" name="" memberEnd="_h2uwsoOKEeyz4o1LJu6UTw _h1lhMYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2uwsoOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2uwsYOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2vXwIOKEeyz4o1LJu6UTw" name="" memberEnd="_h2vXwYOKEeyz4o1LJu6UTw _h1mvUYOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2vXwYOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2vXwIOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2vXw4OKEeyz4o1LJu6UTw" name="" memberEnd="_h2vXxIOKEeyz4o1LJu6UTw _h1n9coOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2vXxIOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2vXw4OKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2wl4IOKEeyz4o1LJu6UTw" name="" memberEnd="_h2wl4YOKEeyz4o1LJu6UTw _h1pLkIOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2wl4YOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2wl4IOKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h2wl44OKEeyz4o1LJu6UTw" name="" memberEnd="_h2wl5IOKEeyz4o1LJu6UTw _h1pyoIOKEeyz4o1LJu6UTw">
+        <ownedEnd xmi:id="_h2wl5IOKEeyz4o1LJu6UTw" name="" type="_hwHLUIOKEeyz4o1LJu6UTw" association="_h2wl44OKEeyz4o1LJu6UTw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_he11IIOKEeyz4o1LJu6UTw">
+      <eAnnotations xmi:id="_he44cIOKEeyz4o1LJu6UTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_he7UsIOKEeyz4o1LJu6UTw" base_Package="_haoqkIOKEeyz4o1LJu6UTw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hvqfYIOKEeyz4o1LJu6UTw" base_Element="_hvp4UIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hwV00IOKEeyz4o1LJu6UTw" base_Element="_hwVNwIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Annotations xmi:id="_hwWb4IOKEeyz4o1LJu6UTw" base_Element="_hwVNwIOKEeyz4o1LJu6UTw">
+    <annotations xmi:id="_hwWb4YOKEeyz4o1LJu6UTw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_h0OPQIOKEeyz4o1LJu6UTw" base_Element="_h0NBIIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0PdYIOKEeyz4o1LJu6UTw" base_Element="_h0O2UIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0QrgIOKEeyz4o1LJu6UTw" base_Element="_h0PdYYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0SgsIOKEeyz4o1LJu6UTw" base_Element="_h0R5oIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0THwIOKEeyz4o1LJu6UTw" base_Element="_h0SgsYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0UV4IOKEeyz4o1LJu6UTw" base_Element="_h0Tu0IOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0WLEIOKEeyz4o1LJu6UTw" base_Element="_h0VkAIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0WyIIOKEeyz4o1LJu6UTw" base_Element="_h0WLEYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0YAQIOKEeyz4o1LJu6UTw" base_Element="_h0XZMIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0YnUIOKEeyz4o1LJu6UTw" base_Element="_h0YAQYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0ZOYIOKEeyz4o1LJu6UTw" base_Element="_h0YnUYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0Z1cIOKEeyz4o1LJu6UTw" base_Element="_h0ZOYYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0acgIOKEeyz4o1LJu6UTw" base_Element="_h0Z1cYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0cRsIOKEeyz4o1LJu6UTw" base_Element="_h0bqoIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0c4wIOKEeyz4o1LJu6UTw" base_Element="_h0cRsYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0df0IOKEeyz4o1LJu6UTw" base_Element="_h0c4wYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0eG4IOKEeyz4o1LJu6UTw" base_Element="_h0df0YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0et8IOKEeyz4o1LJu6UTw" base_Element="_h0eG4YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0fVAIOKEeyz4o1LJu6UTw" base_Element="_h0et8YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0f8EIOKEeyz4o1LJu6UTw" base_Element="_h0fVAYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0gjIIOKEeyz4o1LJu6UTw" base_Element="_h0f8EYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0hKMIOKEeyz4o1LJu6UTw" base_Element="_h0gjIYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0hxQIOKEeyz4o1LJu6UTw" base_Element="_h0hKMYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0k0kIOKEeyz4o1LJu6UTw" base_Element="_h0kNgIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0lboIOKEeyz4o1LJu6UTw" base_Element="_h0k0kYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0mCsIOKEeyz4o1LJu6UTw" base_Element="_h0lboYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0mCsoOKEeyz4o1LJu6UTw" base_Element="_h0mCsYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0mpwYOKEeyz4o1LJu6UTw" base_Element="_h0mpwIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0nQ0IOKEeyz4o1LJu6UTw" base_Element="_h0mpwoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0n34IOKEeyz4o1LJu6UTw" base_Element="_h0nQ0YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0n34oOKEeyz4o1LJu6UTw" base_Element="_h0n34YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0oe8IOKEeyz4o1LJu6UTw" base_Element="_h0n344OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0oe8oOKEeyz4o1LJu6UTw" base_Element="_h0oe8YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0pGAIOKEeyz4o1LJu6UTw" base_Element="_h0oe84OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0ptEIOKEeyz4o1LJu6UTw" base_Element="_h0pGAYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0tXcIOKEeyz4o1LJu6UTw" base_Element="_h0swYIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0t-gIOKEeyz4o1LJu6UTw" base_Element="_h0tXcYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0t-goOKEeyz4o1LJu6UTw" base_Element="_h0t-gYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0ulkYOKEeyz4o1LJu6UTw" base_Element="_h0ulkIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h0vMoYOKEeyz4o1LJu6UTw" base_Element="_h0vMoIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h016UIOKEeyz4o1LJu6UTw" base_Element="_h01TQIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h0-dMIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h092IIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h0_EQIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h0-dM4OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1CHkIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1BggYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1FK4YOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1Ej0YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1Fx84OKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1Fx8YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1GZAIOKEeyz4o1LJu6UTw" genericsValue="String" base_Element="_h1Fx8oOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1OU0YOKEeyz4o1LJu6UTw" base_Element="_h1NtwIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1O74IOKEeyz4o1LJu6UTw" base_Element="_h1OU0oOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1Pi8IOKEeyz4o1LJu6UTw" base_Element="_h1O74YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1Pi8oOKEeyz4o1LJu6UTw" base_Element="_h1Pi8YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1QKAIOKEeyz4o1LJu6UTw" base_Element="_h1Pi84OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1QKAoOKEeyz4o1LJu6UTw" base_Element="_h1QKAYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1QxEYOKEeyz4o1LJu6UTw" base_Element="_h1QxEIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1QxE4OKEeyz4o1LJu6UTw" base_Element="_h1QxEoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1RYIYOKEeyz4o1LJu6UTw" base_Element="_h1RYIIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1R_MIOKEeyz4o1LJu6UTw" base_Element="_h1RYIoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1R_MoOKEeyz4o1LJu6UTw" base_Element="_h1R_MYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1SmQIOKEeyz4o1LJu6UTw" base_Element="_h1R_M4OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1SmQoOKEeyz4o1LJu6UTw" genericsValue="String" base_Element="_h1SmQYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1TNUIOKEeyz4o1LJu6UTw" base_Element="_h1SmQYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1TNUoOKEeyz4o1LJu6UTw" base_Element="_h1TNUYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1T0YIOKEeyz4o1LJu6UTw" base_Element="_h1TNU4OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1UbcIOKEeyz4o1LJu6UTw" base_Element="_h1T0YYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1VCgIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1UbcYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1VCgYOKEeyz4o1LJu6UTw" base_Element="_h1UbcYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1VpkYOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1VpkIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1WQoIOKEeyz4o1LJu6UTw" base_Element="_h1VpkIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1W3sIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1WQoYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1W3sYOKEeyz4o1LJu6UTw" base_Element="_h1WQoYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1XewIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1W3soOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1YF0IOKEeyz4o1LJu6UTw" base_Element="_h1W3soOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1Ys4IOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1YF0YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1Ys4YOKEeyz4o1LJu6UTw" base_Element="_h1YF0YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1ZT8IOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1Ys4oOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1ZT8YOKEeyz4o1LJu6UTw" base_Element="_h1Ys4oOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1Z7AYOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1Z7AIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1Z7AoOKEeyz4o1LJu6UTw" base_Element="_h1Z7AIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1aiEYOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1aiEIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1bJIIOKEeyz4o1LJu6UTw" base_Element="_h1aiEIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1bwMIOKEeyz4o1LJu6UTw" base_Element="_h1bJIYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1bwMoOKEeyz4o1LJu6UTw" base_Element="_h1bwMYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1cXQIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1bwM4OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1cXQYOKEeyz4o1LJu6UTw" base_Element="_h1bwM4OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1c-UIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1cXQoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1c-UYOKEeyz4o1LJu6UTw" base_Element="_h1cXQoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1dlYIOKEeyz4o1LJu6UTw" genericsValue="String" base_Element="_h1c-UoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1dlYYOKEeyz4o1LJu6UTw" base_Element="_h1c-UoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1ezgIOKEeyz4o1LJu6UTw" genericsValue="String" base_Element="_h1eMcIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1ezgYOKEeyz4o1LJu6UTw" base_Element="_h1eMcIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1fakIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1ezgoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1gBoIOKEeyz4o1LJu6UTw" base_Element="_h1ezgoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1gosIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1gBoYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1hPwIOKEeyz4o1LJu6UTw" base_Element="_h1gBoYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1h20IOKEeyz4o1LJu6UTw" genericsValue="String" base_Element="_h1hPwYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1h20YOKEeyz4o1LJu6UTw" base_Element="_h1hPwYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1id4YOKEeyz4o1LJu6UTw" genericsValue="String" base_Element="_h1id4IOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1jE8IOKEeyz4o1LJu6UTw" base_Element="_h1id4IOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1jsAIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1jE8YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1kTEIOKEeyz4o1LJu6UTw" base_Element="_h1jE8YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1k6IIOKEeyz4o1LJu6UTw" genericsValue="Task" base_Element="_h1kTEYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1lhMIOKEeyz4o1LJu6UTw" base_Element="_h1kTEYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1mIQIOKEeyz4o1LJu6UTw" genericsValue="String" base_Element="_h1lhMYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1mvUIOKEeyz4o1LJu6UTw" base_Element="_h1lhMYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Generics xmi:id="_h1nWYIOKEeyz4o1LJu6UTw" genericsValue="String" base_Element="_h1mvUYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1nWYYOKEeyz4o1LJu6UTw" base_Element="_h1mvUYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1n9cYOKEeyz4o1LJu6UTw" base_Element="_h1nWYoOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1okgYOKEeyz4o1LJu6UTw" base_Element="_h1n9coOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1pLkYOKEeyz4o1LJu6UTw" base_Element="_h1pLkIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1pyoYOKEeyz4o1LJu6UTw" base_Element="_h1pyoIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1qZsYOKEeyz4o1LJu6UTw" base_Element="_h1qZsIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1rAwYOKEeyz4o1LJu6UTw" base_Element="_h1rAwIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1rn0YOKEeyz4o1LJu6UTw" base_Element="_h1rn0IOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1tdAIOKEeyz4o1LJu6UTw" base_Element="_h1s18IOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1uEEIOKEeyz4o1LJu6UTw" base_Element="_h1tdAYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1urIYOKEeyz4o1LJu6UTw" base_Element="_h1uEEYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h1vSMYOKEeyz4o1LJu6UTw" base_Element="_h1vSMIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_h10xwYOKEeyz4o1LJu6UTw" base_Element="_h10xwIOKEeyz4o1LJu6UTw"/>
+  <uml:OpaqueBehavior xmi:id="_h2FQcIOKEeyz4o1LJu6UTw" name="getDescription" specification="_h1v5QIOKEeyz4o1LJu6UTw">
+    <ownedParameter xmi:id="_h2FQcYOKEeyz4o1LJu6UTw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.description;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_h2FQcoOKEeyz4o1LJu6UTw" name="setDescription" specification="_h1wgUIOKEeyz4o1LJu6UTw">
+    <ownedParameter xmi:id="_h2FQc4OKEeyz4o1LJu6UTw" name="description">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.description = description;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_h2F3gIOKEeyz4o1LJu6UTw" name="getDueDate" specification="_h1xHYIOKEeyz4o1LJu6UTw">
+    <ownedParameter xmi:id="_h2F3gYOKEeyz4o1LJu6UTw" type="_h0PdYYOKEeyz4o1LJu6UTw" direction="return"/>
+    <language>java</language>
+    <body>return this.dueDate;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_h2F3goOKEeyz4o1LJu6UTw" name="setDueDate" specification="_h1xHYYOKEeyz4o1LJu6UTw">
+    <ownedParameter xmi:id="_h2F3g4OKEeyz4o1LJu6UTw" name="dueDate" type="_h0PdYYOKEeyz4o1LJu6UTw"/>
+    <language>java</language>
+    <body>this.dueDate = dueDate;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_h2F3hIOKEeyz4o1LJu6UTw" name="getCompleted" specification="_h1yVgIOKEeyz4o1LJu6UTw">
+    <ownedParameter xmi:id="_h2F3hYOKEeyz4o1LJu6UTw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.completed;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_h2GekIOKEeyz4o1LJu6UTw" name="setCompleted" specification="_h1yVgYOKEeyz4o1LJu6UTw">
+    <ownedParameter xmi:id="_h2GekYOKEeyz4o1LJu6UTw" name="completed">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.completed = completed;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_h2GekoOKEeyz4o1LJu6UTw" name="getImportant" specification="_h1zjoIOKEeyz4o1LJu6UTw">
+    <ownedParameter xmi:id="_h2Gek4OKEeyz4o1LJu6UTw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.important;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_h2GelIOKEeyz4o1LJu6UTw" name="setImportant" specification="_h1zjoYOKEeyz4o1LJu6UTw">
+    <ownedParameter xmi:id="_h2GelYOKEeyz4o1LJu6UTw" name="important">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>this.important = important;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:MultiDeclaration xmi:id="_h2XkUIOKEeyz4o1LJu6UTw" base_Property="_h1s18IOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_h2YLYIOKEeyz4o1LJu6UTw" base_Property="_h1tdAYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_h2YycIOKEeyz4o1LJu6UTw" base_Property="_h1uEEYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_h2YycYOKEeyz4o1LJu6UTw" base_Property="_h1vSMIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2cc0IOKEeyz4o1LJu6UTw" base_Element="_h2bOsIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2dD4IOKEeyz4o1LJu6UTw" base_Element="_h2cc0YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2dq8IOKEeyz4o1LJu6UTw" base_Element="_h2dD4YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2eSAIOKEeyz4o1LJu6UTw" base_Element="_h2dq8YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2e5EIOKEeyz4o1LJu6UTw" base_Element="_h2eSAYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2fgIIOKEeyz4o1LJu6UTw" base_Element="_h2e5EYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2gHMIOKEeyz4o1LJu6UTw" base_Element="_h2fgIYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2guQIOKEeyz4o1LJu6UTw" base_Element="_h2gHMYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2hVUIOKEeyz4o1LJu6UTw" base_Element="_h2guQYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2h8YIOKEeyz4o1LJu6UTw" base_Element="_h2hVUYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2h8Y4OKEeyz4o1LJu6UTw" base_Element="_h2h8YYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2jKgIOKEeyz4o1LJu6UTw" base_Element="_h2ijcIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2jxkIOKEeyz4o1LJu6UTw" base_Element="_h2jKgYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2jxk4OKEeyz4o1LJu6UTw" base_Element="_h2jxkYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2kYoIOKEeyz4o1LJu6UTw" base_Element="_h2jxlIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2k_sIOKEeyz4o1LJu6UTw" base_Element="_h2kYoYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2mN0IOKEeyz4o1LJu6UTw" base_Element="_h2k_sYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2m04IOKEeyz4o1LJu6UTw" base_Element="_h2mN0YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2m044OKEeyz4o1LJu6UTw" base_Element="_h2m04YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2nb8oOKEeyz4o1LJu6UTw" base_Element="_h2nb8IOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2oDAoOKEeyz4o1LJu6UTw" base_Element="_h2oDAIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2oqEIOKEeyz4o1LJu6UTw" base_Element="_h2oDA4OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2pRIIOKEeyz4o1LJu6UTw" base_Element="_h2oqEYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2p4MIOKEeyz4o1LJu6UTw" base_Element="_h2pRIYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2qfQIOKEeyz4o1LJu6UTw" base_Element="_h2p4MYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2rGUIOKEeyz4o1LJu6UTw" base_Element="_h2qfQYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2rtYIOKEeyz4o1LJu6UTw" base_Element="_h2rGUYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2rtY4OKEeyz4o1LJu6UTw" base_Element="_h2rtYYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2sUcIOKEeyz4o1LJu6UTw" base_Element="_h2rtZIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2s7gIOKEeyz4o1LJu6UTw" base_Element="_h2sUcYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2tikIOKEeyz4o1LJu6UTw" base_Element="_h2s7gYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2uJoIOKEeyz4o1LJu6UTw" base_Element="_h2tikYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2uwsIOKEeyz4o1LJu6UTw" base_Element="_h2uJoYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2uws4OKEeyz4o1LJu6UTw" base_Element="_h2uwsYOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2vXwoOKEeyz4o1LJu6UTw" base_Element="_h2vXwIOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2v-0IOKEeyz4o1LJu6UTw" base_Element="_h2vXw4OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2wl4oOKEeyz4o1LJu6UTw" base_Element="_h2wl4IOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2xM8IOKEeyz4o1LJu6UTw" base_Element="_h2wl44OKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Reference xmi:id="_h2x0AIOKEeyz4o1LJu6UTw" base_Element="_h2xM8YOKEeyz4o1LJu6UTw"/>
+  <UMLLabProfile:Patch xmi:id="_i7-hgIOKEeyz4o1LJu6UTw" base_Element="_hwTYkIOKEeyz4o1LJu6UTw" patchText="@@ -109,22 +109,16 @@&#xA; zable %7B%0A&#xA;-public&#xA; %0A%09String&#xA;@@ -129,26 +129,18 @@&#xA; cription&#xA;-, ;%0Apublic&#xA;+;%0A&#xA; %09Date du&#xA;@@ -144,26 +144,18 @@&#xA;  dueDate&#xA;-, ;%0Apublic&#xA;+;%0A&#xA; %09boolean&#xA;@@ -176,214 +176,786 @@&#xA; alse&#xA;-, ;%0Apublic%09boolean important, ;%0A%09%0A%09public Task(String description, Date date, boolean completed, boolean important) %0A%09%7B%0A%09%09this.description = description;%0A%09%09this.dueDate = date;%0A%09%09this.completed = completed;&#xA;+;%0A%09boolean important;%0A%09%0A%09public Task(String description, Date date, boolean completed, boolean important) %0A%09%7B%0A%09%09this.description = description;%0A%09%09this.dueDate = date;%0A%09%09this.completed = completed;%0A%09%09this.important = important;%0A%09%7D%0A%0A%09public String getDescription() %0A%09%7B%0A%09%09return this.description;%0A%09%7D%0A%0A%09public void setDescription(String description) %0A%09%7B%0A%09%09this.description = description;%0A%09%7D%0A%09%0A%09public Date getDueDate() %0A%09%7B%0A%09%09return this.dueDate;%0A%09%7D%0A%0A%09public void setDueDate(Date dueDate) %0A%09%7B%0A%09%09this.dueDate = dueDate;%0A%09%7D%0A%09%0A%09public boolean getCompleted() %0A%09%7B%0A%09%09return this.completed;%0A%09%7D%0A%0A%09public void setCompleted(boolean completed) %0A%09%7B%0A%09%09this.completed = completed;%0A%09%7D%0A%0A%09public boolean getImportant() %0A%09%7B%0A%09%09return this.important;%0A%09%7D%0A%0A%09public void setImportant(boolean important) %0A%09%7B&#xA; %0A%09%09t&#xA;" conflicting="false"/>
+</xmi:XMI>

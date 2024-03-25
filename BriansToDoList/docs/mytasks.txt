@@ -1,0 +1,42 @@
+25-01-2022;Cook a lunch for a family;false;false
+24-01-2022;Write an essay for English assessment;true;false
+24-01-2022;Clean the room;true;false
+27-02-2022;Make a bed, but carefully;false;true
+27-01-2022;Do the dishes;false;false
+26-01-2022;Get some groceries from supermarket;true;false
+27-01-2022;Prepare a meal takeout to school;false;true
+26-01-2022;Put items in shared space;true;false
+26-01-2022;Cleaning up messes in the bathroom;true;false
+26-01-2022;Take out the trash;true;false
+27-01-2022;Wipe down countertops;true;false
+28-01-2022;Reorganize the files in the laptop;true;false
+30-01-2022;Sweep the kitchen floor;true;false
+31-01-2022;Squeegee shower doors and walls;true;true
+01-02-2022;Write the Internal Assesment from Mathematics;true;true
+04-02-2022;Wash windows outside/inside;false;true
+24-02-2022;Feed the pet before the afternoon break;false;false
+20-02-2022;Load and run the dishwasher, but with caution;true;true
+02-02-2022;Buy adapter for the laptop;true;true
+03-02-2022;Reorganize and wipe down the pantry and cupboards in the kitchen;false;true
+06-02-2022;Wash the car;true;false
+08-02-2022;Change air and water filters on Dyson machine;true;false
+20-02-2022;Scrub out the keyboard;false;true
+01-02-2022;Clean the garage;true;true
+28-02-2022;Wash the dishes;true;true
+10-02-2022;Wash the dishes;true;true
+22-02-2022;Buy a new monitor;true;false
+22-02-2022;Check the eye's vision;true;false
+04-02-2022;Pay off the debt;true;false
+02-02-2022;Take the dog out at night;false;true
+26-02-2022;Wash the dishes, but be careful;false;false
+24-02-2022;Search the room carefully;false;true
+21-02-2022;Do the dishes;false;true
+21-02-2022;Do the dishes and clean the room;false;true
+24-02-2022;Clean the keyboard;false;true
+24-02-2022;Buy groceries;false;true
+25-02-2022;Buy groceries ;false;false
+25-02-2022;Clean the bathroom;false;true
+25-02-2022;Buy a new keyboard;false;true
+25-02-2022;Clean the kitchen;false;true
+26-02-2022;You are something;false;true
+03-03-2022;Go to Groole WITH FILIP GRZEBSKI;false;true

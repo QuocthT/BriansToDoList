@@ -1,0 +1,2418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_hbV1MIOKEeyz4o1LJu6UTw">
+  <modelElement href="Todolist.uml#_haoqkIOKEeyz4o1LJu6UTw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_j59zwIOKEeyz4o1LJu6UTw" source="_j6UZEIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2bOsIOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_j59zwYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2cc0IOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_j59zwoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_j59zw4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2bOsYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j59zxIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j59zxYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_j59zxoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="taskName" navigable="true">
+      <modelElement href="Todolist.uml#_h1OU0oOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmXwgIOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1O74IOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j59zx4OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_j59zyIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_j6QusIOKEeyz4o1LJu6UTw" sourceAnchor="138.0,97.0" targetAnchor="261.0,0.0" target="_j-uX8IOKEeyz4o1LJu6UTw" source="_j6UZEIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2cc0YOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_j6QusYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2dD4IOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_j6QusoOKEeyz4o1LJu6UTw" text="">
+      <visualProperties xmi:id="_kk7cUIOKEeyz4o1LJu6UTw" position="-21.0,-5.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_j6Qus4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2cc0oOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_kk61QYOKEeyz4o1LJu6UTw" position="6.0,5.0"/>
+      <visibility xmi:id="_j6QutIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j6QutYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_j6QutoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="factory" navigable="true">
+      <modelElement href="Todolist.uml#_h1O74YOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_kk8DYIOKEeyz4o1LJu6UTw" position="-52.0,-46.0"/>
+      <stereotypes xmi:id="_vmYXkIOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1Pi8IOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j6Qut4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j6QuuIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_j6TK8IOKEeyz4o1LJu6UTw" sourceAnchor="138.0,0.0" targetAnchor="267.0,170.0" target="_j9XGAIOKEeyz4o1LJu6UTw" source="_j6UZEIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2dD4YOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_j6TK8YOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2dq8IOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_j6TK8oOKEeyz4o1LJu6UTw" text="">
+      <visualProperties xmi:id="_kk94kIOKEeyz4o1LJu6UTw" position="-21.0,-6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_j6TK84OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2dD4oOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_kk9RgIOKEeyz4o1LJu6UTw" position="-20.0,-46.0"/>
+      <visibility xmi:id="_j6TK9IOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j6TK9YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_j6TK9oOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="editedTask" navigable="true">
+      <modelElement href="Todolist.uml#_h1Pi8YOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_kk94kYOKEeyz4o1LJu6UTw" position="3.0,5.0"/>
+      <stereotypes xmi:id="_vmYXkYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1Pi8oOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j6TK94OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j6TK-IOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_j60vYIOKEeyz4o1LJu6UTw" sourceAnchor="0.0,131.0" targetAnchor="225.0,64.0" target="_j7W64IOKEeyz4o1LJu6UTw" source="_j-uX8IOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2xM8YOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_j7Nw8YOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2x0AIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_j7NJ4IOKEeyz4o1LJu6UTw" text="">
+      <visualProperties xmi:id="_klAU0IOKEeyz4o1LJu6UTw" position="2.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_j7NJ4YOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2xM8oOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_kk_twIOKEeyz4o1LJu6UTw" position="-19.0,5.0"/>
+      <visibility xmi:id="_j7Nw84OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j7Nw8oOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_j7Nw8IOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="mainTasklist" navigable="true">
+      <modelElement href="Todolist.uml#_h10xwIOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_klAU0YOKEeyz4o1LJu6UTw" position="5.0,-47.0"/>
+      <stereotypes xmi:id="_j7OYAoOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h10xwYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j7OYAYOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_j7OYAIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_j7PmIIOKEeyz4o1LJu6UTw" sourceAnchor="111.0,0.0" targetAnchor="145.0,72.0" target="_j8BpQIOKEeyz4o1LJu6UTw" source="_j7W64IOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2dq8YOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_j7PmIYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2eSAIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_j7PmIoOKEeyz4o1LJu6UTw" text="">
+      <visualProperties xmi:id="_kk-foIOKEeyz4o1LJu6UTw" position="-21.0,-6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_j7PmI4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2dq8oOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_kk94koOKEeyz4o1LJu6UTw" position="-20.0,-46.0"/>
+      <visibility xmi:id="_j7PmJIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j7PmJYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_j7PmJoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="fileRAF" navigable="true">
+      <modelElement href="Todolist.uml#_h1Pi84OKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_kk_GsIOKEeyz4o1LJu6UTw" position="0.0,5.0"/>
+      <stereotypes xmi:id="_vmY-oIOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1QKAIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j7PmJ4OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_j7PmKIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kAJ7UIOKEeyz4o1LJu6UTw" source="_kCbMMIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2e5EYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kBhNQYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2fgIIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kBgmMIOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kBgmMYOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2e5EoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kBh0UYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kBh0UIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kBhNQIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="textFieldShownTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1QxEIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmY-oYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1QxEYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kBh0U4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kBh0UoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kBjCcIOKEeyz4o1LJu6UTw" source="_kCbMMIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2eSAYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kBjCcYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2e5EIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kBjCcoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kBjCc4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2eSAoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kBjCdIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kBjCdYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kBjCdoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="frmTaskAdder" navigable="true">
+      <modelElement href="Todolist.uml#_h1QKAYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmZlsIOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1QKAoOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kBjCd4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kBjCeIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kB5nwIOKEeyz4o1LJu6UTw" source="_kCbMMIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2fgIYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kB6O0IOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2gHMIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kB6O0YOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kB6O0oOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2fgIoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kB6O04OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kB6O1IOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kB6O1YOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="btnAddTask" navigable="true">
+      <modelElement href="Todolist.uml#_h1QxEoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmZlsYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1QxE4OKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kB6O1oOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kB6O14OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kDHvwIOKEeyz4o1LJu6UTw" source="_kEisEIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2gHMYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kDjNk4OKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2guQIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kDjNkIOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kDjNkYOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2gHMoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kDkbsoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kDkbsYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kDjNkoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="frmTaskEditor" navigable="true">
+      <modelElement href="Todolist.uml#_h1RYIoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmaMwIOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1R_MIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kDlCwIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kDkbs4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kDhYYIOKEeyz4o1LJu6UTw" source="_kEisEIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2guQYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kDj0oYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2hVUIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kDjNlIOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kDjNlYOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2guQoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kDlCw4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kDlCwoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kDj0oIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="textFieldShownTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1R_MYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmaz0IOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1R_MoOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kDlCxYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kDlCxIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kDhYYYOKEeyz4o1LJu6UTw" source="_kEisEIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2ijcIOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kDkbsIOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2jKgIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kDj0ooOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kDj0o4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2ijcYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kDlCyIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kDlCx4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kDj0pIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="btnDone" navigable="true">
+      <modelElement href="Todolist.uml#_h1TNUYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmba4IOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1TNUoOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kDlCyoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kDlCyYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kDm38IOKEeyz4o1LJu6UTw" source="_kEisEIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2hVUYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kDm38YOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2h8YIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kDm38oOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kDm384OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2hVUoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kDm39IOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kDm39YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kDm39oOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="dateChooser" navigable="true">
+      <modelElement href="Todolist.uml#_h1R_M4OKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmba4YOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1SmQIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kDm394OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kDm3-IOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kEPxIIOKEeyz4o1LJu6UTw" source="_kEisEIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2h8YYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kEPxIYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2h8Y4OKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kEPxIoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kEPxI4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2h8YoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kEPxJIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kEPxJYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kEPxJoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="comboBoxImportant" navigable="true">
+      <modelElement href="Todolist.uml#_h1SmQYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmcB8IOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1SmQoOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmcB8YOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1TNUIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kEPxJ4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kEPxKIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kFWkYIOKEeyz4o1LJu6UTw" source="_kGt2WYOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2jKgYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kGSYg4OKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2jxkIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kGSYgIOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kGSYgYOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2jKgoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGS_kYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGS_kIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kGSYgoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="frmListsOfTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1T0YYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmcpAIOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1UbcIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kGTmoYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kGTmoIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kGU0wIOKEeyz4o1LJu6UTw" source="_kGt2WYOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2jxkYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kGU0wYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2jxk4OKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kGU0woOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kGU0w4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2jxkoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGU0xIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGU0xYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kGU0xoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listCompletedTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1UbcYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmdQEIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1VCgIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmdQEYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1VCgYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kGU0x4OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGU0yIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kGnIoIOKEeyz4o1LJu6UTw" source="_kGt2WYOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2jxlIOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kGnIoYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2kYoIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kGnIooOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kGnIo4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2jxlYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGnIpIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGnIpYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kGnIpoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="completedTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1VpkIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmdQEoOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1VpkYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmdQE4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1WQoIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kGnIp4OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGnIqIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kGoWwIOKEeyz4o1LJu6UTw" source="_kGt2WYOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2kYoYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kGoWwYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2k_sIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kGoWwoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kGoWw4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2kYooOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGoWxIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGoWxYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kGoWxoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listActiveTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1WQoYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmd3IIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1W3sIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmd3IYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1W3sYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kGoWx4OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGoWyIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kGqL8IOKEeyz4o1LJu6UTw" source="_kGt2WYOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2k_sYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kGqL8YOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2mN0IOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kGqL8oOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kGqL84OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2k_soOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGqL9IOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGqL9YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kGqL9oOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="activeTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1W3soOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmeeMIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1XewIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmeeMYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1YF0IOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kGqL94OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGqL-IOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kGraEIOKEeyz4o1LJu6UTw" source="_kGt2WYOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2mN0YOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kGraEYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2m04IOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kGraEoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kGraE4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2mN0oOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGraFIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGraFYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kGraFoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listImportantTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1YF0YOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmeeMoOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1Ys4IOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmeeM4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1Ys4YOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kGraF4OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGraGIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kGsBIIOKEeyz4o1LJu6UTw" source="_kGt2WYOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2m04YOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kGsBIYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2m044OKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kGsBIoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kGsBI4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2m04oOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGsBJIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGsBJYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kGsBJoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="importantTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1Ys4oOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmfFQIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1ZT8IOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmfFQYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1ZT8YOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kGsBJ4OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGsBKIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kGsoMIOKEeyz4o1LJu6UTw" source="_kGt2WYOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2nb8IOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kGsoMYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2nb8oOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kGsoMoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kGsoM4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2nb8YOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGsoNIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGsoNYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kGsoNoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listOverdueTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1Z7AIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmfFQoOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1Z7AYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmfFQ4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1Z7AoOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kGsoN4OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGsoOIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kGt2UIOKEeyz4o1LJu6UTw" source="_kGt2WYOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2oDAIOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kGt2UYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2oDAoOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kGt2UoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kGt2U4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2oDAYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGt2VIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGt2VYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kGt2VoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="overdueTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1aiEIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmfsUIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1aiEYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmfsUYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1bJIIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kGt2V4OKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGt2WIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kH3s4IOKEeyz4o1LJu6UTw" sourceAnchor="546.0,286.0" targetAnchor="0.0,49.0" target="_j6UZEIOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2vXw4OKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKgxNIOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2v-0IOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKgxMYOKEeyz4o1LJu6UTw" text="">
+      <visualProperties xmi:id="_klA74YOKEeyz4o1LJu6UTw" position="-256.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kKgxMoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2vXxIOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_klA74IOKEeyz4o1LJu6UTw" position="5.0,-47.0"/>
+      <visibility xmi:id="_kKne6oOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKne6YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKgxM4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="mainlogic" navigable="true">
+      <modelElement href="Todolist.uml#_h1n9coOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_klBi8IOKEeyz4o1LJu6UTw" position="-70.0,5.0"/>
+      <stereotypes xmi:id="_vmfsUoOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1okgYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKne7IOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKne64OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kJD_sIOKEeyz4o1LJu6UTw" sourceAnchor="272.0,572.0" targetAnchor="0.0,286.0" target="_kKyeAIOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2wl4IOKEeyz4o1LJu6UTw"/>
+    <bendpoints xmi:id="_8Q9MwIOKEeyz4o1LJu6UTw" sourceY="78" targetX="272" targetY="364"/>
+    <bendpoints xmi:id="_8Q9z0IOKEeyz4o1LJu6UTw" sourceX="-377" sourceY="78" targetX="-105" targetY="364"/>
+    <bendpoints xmi:id="_8Q9z0YOKEeyz4o1LJu6UTw" sourceX="-376" sourceY="-286" targetX="-104"/>
+    <stereotypes xmi:id="_kKkbk4OKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2wl4oOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKkbkIOKEeyz4o1LJu6UTw" text="">
+      <visualProperties xmi:id="_klCxEIOKEeyz4o1LJu6UTw" position="314.0,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kKkbkYOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2wl4YOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_klBi8YOKEeyz4o1LJu6UTw" position="6.0,5.0"/>
+      <visibility xmi:id="_kKotAYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKotAIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKkbkoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="window" navigable="true">
+      <modelElement href="Todolist.uml#_h1pLkIOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_klCxEYOKEeyz4o1LJu6UTw" position="-58.99999999999994,5.0"/>
+      <stereotypes xmi:id="_vmfsU4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1pLkYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKotA4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKotAoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kJjH4IOKEeyz4o1LJu6UTw" sourceAnchor="273.0,0.0" targetAnchor="206.0,344.0" target="_kGt2WYOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2wl44OKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKhYQIOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2xM8IOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKgxNYOKEeyz4o1LJu6UTw" text="">
+      <visualProperties xmi:id="_klD_MIOKEeyz4o1LJu6UTw" position="2.0,-31.75"/>
+    </nameVisual>
+    <sourceRole xmi:id="_kKgxNoOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2wl5IOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_klDYIIOKEeyz4o1LJu6UTw" position="2.0,-65.66666666666663"/>
+      <visibility xmi:id="_kKoF8IOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKne7oOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKgxN4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="lists" navigable="true">
+      <modelElement href="Todolist.uml#_h1pyoIOKEeyz4o1LJu6UTw"/>
+      <visualProperties xmi:id="_klFNUIOKEeyz4o1LJu6UTw" position="-38.0,24.666666666666742"/>
+      <stereotypes xmi:id="_vmgTYIOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1pyoYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKoF8oOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKoF8YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kJju8IOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2oDA4OKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKlCoYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2oqEIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKkblIOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKkblYOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2oDBIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKpUEYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKpUEIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKlCoIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="frmToDoList" navigable="true">
+      <modelElement href="Todolist.uml#_h1bJIYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmgTYYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1bwMIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKpUE4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKpUEoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKHvoIOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2pRIYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKlCpYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2p4MIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKlCooOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKlCo4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2pRIoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKpUFoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKpUFYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKlCpIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="todayTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1bwM4OKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmg6cIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1cXQIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmg6cYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1cXQYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKpUGIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKpUF4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKdt4IOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2p4MYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKlCqYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2qfQIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKlCpoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKlCp4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2p4MoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKpUHIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKpUG4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKlCqIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listTodayTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1cXQoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmg6coOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1c-UIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmg6c4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1c-UYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKp7IIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKpUHYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKeU8IOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2qfQYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKlpsYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2rGUIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKlCqoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKlCq4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2qfQoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKp7JIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKp7I4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKlpsIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="statusTodayTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1c-UoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmhhgIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1dlYIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmhhgYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1dlYYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKp7JoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKp7JYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKeU8YOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2rGUYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKlptYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2rtYIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKlpsoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKlps4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2rGUoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKp7KoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKp7KYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKlptIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listTodayTasksStatus" navigable="true">
+      <modelElement href="Todolist.uml#_h1eMcIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmhhgoOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1ezgIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmhhg4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1ezgYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKqiMYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKqiMIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKe8AIOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2rtYYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKmQwYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2rtY4OKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKlptoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKlpt4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2rtYoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKqiNYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKqiNIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKmQwIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="tomorrowTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1ezgoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmiIkIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1fakIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmiIkYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1gBoIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKqiN4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKqiNoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKfjEIOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2rtZIOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKmQxYOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2sUcIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKmQwoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKmQw4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2rtZYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKqiO4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKqiOoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKmQxIOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listTomorrowTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1gBoYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmivoIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1gosIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmivoYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1hPwIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKqiPYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKqiPIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKfjEYOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2sUcYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKm30YOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2s7gIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKmQxoOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKmQx4OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2sUcoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKrJQ4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKrJQoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKm30IOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="statusTomorrowTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1hPwYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmjWsIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1h20IOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmjWsYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1h20YOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKrJRYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKrJRIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKfjEoOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2s7gYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKm31YOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2tikIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKm30oOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKm304OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2s7goOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKrJSYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKrJSIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKm31IOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listTomorrowTasksStatus" navigable="true">
+      <modelElement href="Todolist.uml#_h1id4IOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmjWsoOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1id4YOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmjWs4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1jE8IOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKrJS4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKrJSoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKgKIIOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2tikYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKm32YOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2uJoIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKm31oOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKm314OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2tikoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKrwUYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKrwUIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKm32IOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="weekTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1jE8YOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmj9wIOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1jsAIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmj9wYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1kTEIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKrwU4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKrwUoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKgKIYOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2uJoYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKne4IOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2uwsIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKm32oOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKm324OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2uJooOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKrwV4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKrwVoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKm33IOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listWeekTasks" navigable="true">
+      <modelElement href="Todolist.uml#_h1kTEYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmkk0IOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1k6IIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmkk0YOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1lhMIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKrwWYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKrwWIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKgKIoOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2uwsYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKne5IOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2uws4OKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKne4YOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKne4oOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2uwsoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKrwXYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKrwXIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKne44OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="statusWeekTasksList" navigable="true">
+      <modelElement href="Todolist.uml#_h1lhMYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmkk0oOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1mIQIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmkk04OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1mvUIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKrwX4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKrwXoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKgxMIOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2vXwIOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKne6IOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2vXwoOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKne5YOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKne5oOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2vXwYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKsXY4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKsXYoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKne54OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="listWeekTasksStatus" navigable="true">
+      <modelElement href="Todolist.uml#_h1mvUYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmlL4IOKEeyz4o1LJu6UTw" name="Generics">
+        <modelElement href="Todolist.uml#_h1nWYIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vmlL4YOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1nWYYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKsXZYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKsXZIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_kKxP4IOKEeyz4o1LJu6UTw" source="_kKyeAIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_h2oqEYOKEeyz4o1LJu6UTw"/>
+    <stereotypes xmi:id="_kKxP4YOKEeyz4o1LJu6UTw" name="Reference">
+      <modelElement href="Todolist.uml#_h2pRIIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_kKxP4oOKEeyz4o1LJu6UTw" text=""/>
+    <sourceRole xmi:id="_kKxP44OKEeyz4o1LJu6UTw" aggregationKind="NONE" name="">
+      <modelElement href="Todolist.uml#_h2oqEoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKxP5IOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKxP5YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_kKxP5oOKEeyz4o1LJu6UTw" aggregationKind="NONE" name="lblDateHour" navigable="true">
+      <modelElement href="Todolist.uml#_h1bwMYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vmlL4oOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1bwMoOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKxP54OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKxP6IOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_j4ZGcIOKEeyz4o1LJu6UTw" name="Constants">
+    <modelElement href="Todolist.uml#_hvcc8IOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_j4ZGcYOKEeyz4o1LJu6UTw" position="627.0,1437.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_j4ZGcoOKEeyz4o1LJu6UTw" label="+"/>
+    <attributes xmi:id="_j4ZGc4OKEeyz4o1LJu6UTw" defaultValue="&quot;dd-MM-yyyy&quot;" name="DateFormat" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1NtwIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_j4ZGdIOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1OU0YOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j4ZGdYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j4ZGdoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j4ZGd4OKEeyz4o1LJu6UTw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_j4ZGeIOKEeyz4o1LJu6UTw" name="DateToString" staticOperation="true">
+      <modelElement href="Todolist.uml#_h08oAIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j4ZGeYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j4ZGeoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j4ZGe4OKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_h09PEIOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j4ZGfIOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j4ZGfYOKEeyz4o1LJu6UTw" name="date">
+        <modelElement href="Todolist.uml#_h08oAYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j4ZGfoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j4ZGf4OKEeyz4o1LJu6UTw" name="Date">
+          <modelElement href="Todolist.uml#_h0PdYYOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_j6UZEIOKEeyz4o1LJu6UTw" name="MainLogic" associationsIn="_kH3s4IOKEeyz4o1LJu6UTw" associationsOut="_j59zwIOKEeyz4o1LJu6UTw _j6QusIOKEeyz4o1LJu6UTw _j6TK8IOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_hvhVcIOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_j6UZEYOKEeyz4o1LJu6UTw" position="1290.0,803.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_j6UZEoOKEeyz4o1LJu6UTw" label="+"/>
+    <attributes xmi:id="_j6UZE4OKEeyz4o1LJu6UTw" name="taskName">
+      <modelElement href="Todolist.uml#_h1OU0oOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnCe4IOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnDF8IOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnrYEIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvN3QIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvPFYIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twQZEIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_j6UZFYOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_j6UZFoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j6VAIIOKEeyz4o1LJu6UTw" name="JTextField">
+        <modelElement href="Todolist.uml#_h0SgsYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_j6VAIYOKEeyz4o1LJu6UTw" name="factory">
+      <modelElement href="Todolist.uml#_h1O74YOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnDtAIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnEUEIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnr_IIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvPscIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvQTgIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twRAIIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_j6VAI4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j6VAJIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j6VAJYOKEeyz4o1LJu6UTw" name="Factory">
+        <modelElement href="Todolist.uml#_hwZfMIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_j6VAJoOKEeyz4o1LJu6UTw" name="editedTask">
+      <modelElement href="Todolist.uml#_h1Pi8YOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnEUEYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnE7IIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnsmMIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvQ6kIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvRhoIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twRnMIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_j6VAKIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j6VAKYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j6VAKoOKEeyz4o1LJu6UTw" name="Task">
+        <modelElement href="Todolist.uml#_hwTYkIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_j6VAK4OKEeyz4o1LJu6UTw" name="MainLogic">
+      <modelElement href="Todolist.uml#_hvjxsIOKEeyz4o1LJu6UTw"/>
+      <keywords xmi:id="_j6VALIOKEeyz4o1LJu6UTw" keyword="create"/>
+      <visibility xmi:id="_j6VALYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j6VALoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j6VAL4OKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hvlm4IOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j6VAMIOKEeyz4o1LJu6UTw" name="MainLogic">
+          <modelElement href="Todolist.uml#_hvhVcIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j6VAMYOKEeyz4o1LJu6UTw" name="filePath">
+        <modelElement href="Todolist.uml#_hvjxsYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j6VAMoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j6VAM4OKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j6VANIOKEeyz4o1LJu6UTw" name="saveTasksToFile">
+      <modelElement href="Todolist.uml#_hvmN8IOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j6VANYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j6VANoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_j6VAN4OKEeyz4o1LJu6UTw" name="filePath">
+        <modelElement href="Todolist.uml#_hvm1AIOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j6VAOIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j6VAOYOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_j7W64IOKEeyz4o1LJu6UTw" name="TaskList" associationsIn="_j60vYIOKEeyz4o1LJu6UTw" associationsOut="_j7PmIIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_hvpRQIOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_j7W64YOKEeyz4o1LJu6UTw" position="719.0,1178.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_j7W64oOKEeyz4o1LJu6UTw" label="+"/>
+    <attributes xmi:id="_j7W644OKEeyz4o1LJu6UTw" defaultValue="new myTasks()" name="fileRAF">
+      <modelElement href="Todolist.uml#_h1Pi84OKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnGJQIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnGwUIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vntNQIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvUk8IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvVMAIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twSOQIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_j7W65YOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_j7W65oOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j7W654OKEeyz4o1LJu6UTw" name="myTasks">
+        <modelElement href="Todolist.uml#_hvxNEIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_j7W66IOKEeyz4o1LJu6UTw" name="TaskList">
+      <modelElement href="Todolist.uml#_hvp4UIOKEeyz4o1LJu6UTw"/>
+      <keywords xmi:id="_j7W66YOKEeyz4o1LJu6UTw" keyword="create"/>
+      <stereotypes xmi:id="_j7W66oOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_hvqfYIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j7W664OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j7W67IOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j7W67YOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hvrGcIOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j7W67oOKEeyz4o1LJu6UTw" name="TaskList">
+          <modelElement href="Todolist.uml#_hvpRQIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_j7W674OKEeyz4o1LJu6UTw" name="ReadTasks">
+      <modelElement href="Todolist.uml#_hvs7oIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j7W68IOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j7W68YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_j7W68oOKEeyz4o1LJu6UTw" name="fileName">
+        <modelElement href="Todolist.uml#_hvtisIOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j7W684OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j7W69IOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j7W69YOKEeyz4o1LJu6UTw" name="WriteTasks">
+      <modelElement href="Todolist.uml#_hvuw0IOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j7W69oOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j7W694OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_j7W6-IOKEeyz4o1LJu6UTw" name="fileName">
+        <modelElement href="Todolist.uml#_hvuw0YOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j7W6-YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j7W6-oOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j7W6-4OKEeyz4o1LJu6UTw" name="AddTask">
+      <modelElement href="Todolist.uml#_h0UV4YOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j7W6_IOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_j7W6_YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_j7W6_oOKEeyz4o1LJu6UTw" name="t">
+        <modelElement href="Todolist.uml#_h0U88IOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j7W6_4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j7W7AIOKEeyz4o1LJu6UTw" name="Task">
+          <modelElement href="Todolist.uml#_hwTYkIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j7W7AYOKEeyz4o1LJu6UTw" name="DeleteTask">
+      <modelElement href="Todolist.uml#_h0U88YOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j7W7AoOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_j7W7A4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_j7W7BIOKEeyz4o1LJu6UTw" name="t">
+        <modelElement href="Todolist.uml#_h0U88oOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j7W7BYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j7W7BoOKEeyz4o1LJu6UTw" name="Task">
+          <modelElement href="Todolist.uml#_hwTYkIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_j8BpQIOKEeyz4o1LJu6UTw" name="myTasks" associationsIn="_j7PmIIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_hvxNEIOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_j8BpQYOKEeyz4o1LJu6UTw" position="685.0,920.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_j8BpQoOKEeyz4o1LJu6UTw" label="+"/>
+    <operations xmi:id="_j8BpQ4OKEeyz4o1LJu6UTw" name="saveTasks">
+      <modelElement href="Todolist.uml#_h0acgYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j8BpRIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j8BpRYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_j8BpRoOKEeyz4o1LJu6UTw" name="filePath">
+        <modelElement href="Todolist.uml#_h0bDkIOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j8BpR4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j8BpSIOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_j8BpSYOKEeyz4o1LJu6UTw" name="list">
+        <modelElement href="Todolist.uml#_h0bDkYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j8BpSoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j8BpS4OKEeyz4o1LJu6UTw" name="TaskList">
+          <modelElement href="Todolist.uml#_hvpRQIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j8BpTIOKEeyz4o1LJu6UTw" name="readTasks">
+      <modelElement href="Todolist.uml#_h0-dMYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j8BpTYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j8BpToOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_j8BpT4OKEeyz4o1LJu6UTw" name="filePath">
+        <modelElement href="Todolist.uml#_h0-dMoOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j8BpUIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j8BpUYOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_j8BpUoOKEeyz4o1LJu6UTw" name="list">
+        <modelElement href="Todolist.uml#_h0-dM4OKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j8BpU4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j8BpVIOKEeyz4o1LJu6UTw" name="List">
+          <modelElement href="Todolist.uml#_h0ZOYYOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_j9XGAIOKEeyz4o1LJu6UTw" name="Task" associationsIn="_j6TK8IOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_hwTYkIOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_j9XGAYOKEeyz4o1LJu6UTw" position="1161.0,442.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_j9XGAoOKEeyz4o1LJu6UTw" name="Patch">
+      <modelElement href="Todolist.uml#_i7-hgIOKEeyz4o1LJu6UTw"/>
+    </stereotypes>
+    <visibility xmi:id="_j9XGA4OKEeyz4o1LJu6UTw" label="+"/>
+    <attributes xmi:id="_j9XGBIOKEeyz4o1LJu6UTw" name="description">
+      <modelElement href="Todolist.uml#_h1s18IOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_j9XGBYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1tdAIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_j9XGBoOKEeyz4o1LJu6UTw" name="MultiDeclaration">
+        <modelElement href="Todolist.uml#_h2XkUIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j9XGB4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j9XGCIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j9XGCYOKEeyz4o1LJu6UTw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_j9XGCoOKEeyz4o1LJu6UTw" name="dueDate">
+      <modelElement href="Todolist.uml#_h1tdAYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_j9XGC4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1uEEIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_j9XGDIOKEeyz4o1LJu6UTw" name="MultiDeclaration">
+        <modelElement href="Todolist.uml#_h2YLYIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j9XGDYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j9XGDoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j9XGD4OKEeyz4o1LJu6UTw" name="Date">
+        <modelElement href="Todolist.uml#_h0PdYYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_j9XGEIOKEeyz4o1LJu6UTw" defaultValue="false" name="completed">
+      <modelElement href="Todolist.uml#_h1uEEYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_j9XGEYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1urIYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_j9XGEoOKEeyz4o1LJu6UTw" name="MultiDeclaration">
+        <modelElement href="Todolist.uml#_h2YycIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j9XGE4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j9XGFIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j9XGFYOKEeyz4o1LJu6UTw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_j9XGFoOKEeyz4o1LJu6UTw" name="important">
+      <modelElement href="Todolist.uml#_h1vSMIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_j9XGF4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1vSMYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_j9XGGIOKEeyz4o1LJu6UTw" name="MultiDeclaration">
+        <modelElement href="Todolist.uml#_h2YycYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j9XGGYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j9XGGoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j9XGG4OKEeyz4o1LJu6UTw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_j9XGHIOKEeyz4o1LJu6UTw" name="toString">
+      <modelElement href="Todolist.uml#_hwVNwIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_j9XGHYOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_hwV00IOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_j9XGHoOKEeyz4o1LJu6UTw" name="Annotations">
+        <modelElement href="Todolist.uml#_hwWb4IOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_j9XGH4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j9XGIIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j9XGIYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hwVNwYOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j9XGIoOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_j9XGI4OKEeyz4o1LJu6UTw" name="Task">
+      <modelElement href="Todolist.uml#_h1I1QIOKEeyz4o1LJu6UTw"/>
+      <keywords xmi:id="_j9XGJIOKEeyz4o1LJu6UTw" keyword="create"/>
+      <visibility xmi:id="_j9XGJYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j9XGJoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j9XGJ4OKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_h1JcVoOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j9XGKIOKEeyz4o1LJu6UTw" name="Task">
+          <modelElement href="Todolist.uml#_hwTYkIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j9XGKYOKEeyz4o1LJu6UTw" name="description">
+        <modelElement href="Todolist.uml#_h1JcUIOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j9XGKoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j9XGK4OKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_j9XGLIOKEeyz4o1LJu6UTw" name="date">
+        <modelElement href="Todolist.uml#_h1JcUYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j9XGLYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j9XGLoOKEeyz4o1LJu6UTw" name="Date">
+          <modelElement href="Todolist.uml#_h0PdYYOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_j9XGL4OKEeyz4o1LJu6UTw" name="completed">
+        <modelElement href="Todolist.uml#_h1JcUoOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j9XGMIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j9XGMYOKEeyz4o1LJu6UTw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_j9XGMoOKEeyz4o1LJu6UTw" name="important">
+        <modelElement href="Todolist.uml#_h1JcU4OKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j9XGM4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j9XGNIOKEeyz4o1LJu6UTw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_j-uX8IOKEeyz4o1LJu6UTw" name="Factory" associationsIn="_j6QusIOKEeyz4o1LJu6UTw" associationsOut="_j60vYIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_hwZfMIOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_j-uX8YOKEeyz4o1LJu6UTw" position="1167.0,1111.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_j-uX8oOKEeyz4o1LJu6UTw" label="+"/>
+    <attributes xmi:id="_j-uX84OKEeyz4o1LJu6UTw" name="mainTasklist">
+      <modelElement href="Todolist.uml#_h10xwIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnFiMIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnFiMYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnt0UIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvSvwIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvT94IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twTcYIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_j-uX9IOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_j-uX9YOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_j-uX9oOKEeyz4o1LJu6UTw" name="TaskList">
+        <modelElement href="Todolist.uml#_hvpRQIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_j-uX94OKEeyz4o1LJu6UTw" name="Factory">
+      <modelElement href="Todolist.uml#_hwaGQIOKEeyz4o1LJu6UTw"/>
+      <keywords xmi:id="_j-uX-IOKEeyz4o1LJu6UTw" keyword="create"/>
+      <visibility xmi:id="_j-u_AIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_AYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_AoOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hwaGRIOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_A4OKEeyz4o1LJu6UTw" name="Factory">
+          <modelElement href="Todolist.uml#_hwZfMIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j-u_BIOKEeyz4o1LJu6UTw" name="filePath">
+        <modelElement href="Todolist.uml#_hwaGQYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_BYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_BoOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_B4OKEeyz4o1LJu6UTw" name="RemoveTask">
+      <modelElement href="Todolist.uml#_hwatUIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_CIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_CYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_j-u_CoOKEeyz4o1LJu6UTw" name="i">
+        <modelElement href="Todolist.uml#_hwatUYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_C4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_DIOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_DYOKEeyz4o1LJu6UTw" name="TaskCount">
+      <modelElement href="Todolist.uml#_hwbUYIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_DoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_D4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_EIOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hwbUYYOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_EYOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_j-u_EoOKEeyz4o1LJu6UTw" name="GetTaskDescription">
+      <modelElement href="Todolist.uml#_hwb7cIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_E4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_FIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_FYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hwb7coOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_FoOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j-u_F4OKEeyz4o1LJu6UTw" name="i">
+        <modelElement href="Todolist.uml#_hwb7cYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_GIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_GYOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_GoOKEeyz4o1LJu6UTw" name="GetTaskStatus">
+      <modelElement href="Todolist.uml#_hwb7c4OKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_G4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_HIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_HYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hwcigYOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_HoOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j-u_H4OKEeyz4o1LJu6UTw" name="i">
+        <modelElement href="Todolist.uml#_hwcigIOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_IIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_IYOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_IoOKEeyz4o1LJu6UTw" name="GetTaskTime">
+      <modelElement href="Todolist.uml#_hwcigoOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_I4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_JIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_JYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_h1L4kIOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_JoOKEeyz4o1LJu6UTw" name="Date">
+          <modelElement href="Todolist.uml#_h0PdYYOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j-u_J4OKEeyz4o1LJu6UTw" name="i">
+        <modelElement href="Todolist.uml#_hwcig4OKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_KIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_KYOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_KoOKEeyz4o1LJu6UTw" name="GetTaskCompleted">
+      <modelElement href="Todolist.uml#_hwdJkIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_K4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_LIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_LYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hwdJkoOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_LoOKEeyz4o1LJu6UTw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j-u_L4OKEeyz4o1LJu6UTw" name="i">
+        <modelElement href="Todolist.uml#_hwdJkYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_MIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_MYOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_MoOKEeyz4o1LJu6UTw" name="GetTaskActive">
+      <modelElement href="Todolist.uml#_hwdwoIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_M4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_NIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_NYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hwdwooOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_NoOKEeyz4o1LJu6UTw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j-u_N4OKEeyz4o1LJu6UTw" name="i">
+        <modelElement href="Todolist.uml#_hwdwoYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_OIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_OYOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_OoOKEeyz4o1LJu6UTw" name="GetTaskImportant">
+      <modelElement href="Todolist.uml#_hweXsIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_O4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_PIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_PYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hweXsoOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_PoOKEeyz4o1LJu6UTw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j-u_P4OKEeyz4o1LJu6UTw" name="i">
+        <modelElement href="Todolist.uml#_hweXsYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_QIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_QYOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_QoOKEeyz4o1LJu6UTw" name="GetTask">
+      <modelElement href="Todolist.uml#_hweXs4OKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_Q4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_RIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_RYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_h04WkIOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_RoOKEeyz4o1LJu6UTw" name="Task">
+          <modelElement href="Todolist.uml#_hwTYkIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j-u_R4OKEeyz4o1LJu6UTw" name="i">
+        <modelElement href="Todolist.uml#_hwe-wIOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_SIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_SYOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_SoOKEeyz4o1LJu6UTw" name="FindTask">
+      <modelElement href="Todolist.uml#_h04WkYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_S4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_TIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_j-u_TYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_h04Wk4OKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_j-u_ToOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_j-u_T4OKEeyz4o1LJu6UTw" name="task">
+        <modelElement href="Todolist.uml#_h04WkoOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_UIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_UYOKEeyz4o1LJu6UTw" name="Task">
+          <modelElement href="Todolist.uml#_hwTYkIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_j-u_UoOKEeyz4o1LJu6UTw" name="AddTask">
+      <modelElement href="Todolist.uml#_h1LRgIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_j-u_U4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_j-u_VIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_j-u_VYOKEeyz4o1LJu6UTw" name="description">
+        <modelElement href="Todolist.uml#_h1LRgYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_VoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_V4OKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_j-u_WIOKEeyz4o1LJu6UTw" name="date">
+        <modelElement href="Todolist.uml#_h1LRgoOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_WYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_WoOKEeyz4o1LJu6UTw" name="Date">
+          <modelElement href="Todolist.uml#_h0PdYYOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_j-u_W4OKEeyz4o1LJu6UTw" name="completed">
+        <modelElement href="Todolist.uml#_h1LRg4OKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_XIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_XYOKEeyz4o1LJu6UTw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_j-u_XoOKEeyz4o1LJu6UTw" name="important">
+        <modelElement href="Todolist.uml#_h1LRhIOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_j-u_X4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_j-u_YIOKEeyz4o1LJu6UTw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kCbMMIOKEeyz4o1LJu6UTw" name="AddTaskGUI" associationsOut="_kAJ7UIOKEeyz4o1LJu6UTw _kBjCcIOKEeyz4o1LJu6UTw _kB5nwIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_hv03cIOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_kCbMMYOKEeyz4o1LJu6UTw" position="339.0,1441.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kCbMMoOKEeyz4o1LJu6UTw" label="+"/>
+    <attributes xmi:id="_kCbMM4OKEeyz4o1LJu6UTw" name="frmTaskAdder">
+      <modelElement href="Todolist.uml#_h1QKAYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnIlgIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnIlgYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnubYIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvXBMIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvXoQIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twTcYYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kCbMNYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kCbMNoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kCbMN4OKEeyz4o1LJu6UTw" name="JFrame">
+        <modelElement href="Todolist.uml#_h0cRsYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kCbMOIOKEeyz4o1LJu6UTw" name="textFieldShownTasks">
+      <modelElement href="Todolist.uml#_h1QxEIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnHXYIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnH-cIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnubYYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvVzEIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvWaIIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twUDcIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kCbMOoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kCbMO4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kCbMPIOKEeyz4o1LJu6UTw" name="JTextField">
+        <modelElement href="Todolist.uml#_h0SgsYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kCbMPYOKEeyz4o1LJu6UTw" name="btnAddTask">
+      <modelElement href="Todolist.uml#_h1QxEoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnJMkIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnJzoIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnvCcIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvYPUIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvY2YIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twUqgIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kCbMP4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kCbMQIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kCbMQYOKEeyz4o1LJu6UTw" name="JButton">
+        <modelElement href="Todolist.uml#_h0fVAYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kCbMQoOKEeyz4o1LJu6UTw" name="flag" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1RYIIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_kCbMQ4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1RYIYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kCbMRIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kCbMRYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kCbMRoOKEeyz4o1LJu6UTw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kCbMR4OKEeyz4o1LJu6UTw" name="main" staticOperation="true">
+      <modelElement href="Todolist.uml#_hv2FkIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kCbMSIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kCbMSYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kCbMSoOKEeyz4o1LJu6UTw" name="args">
+        <modelElement href="Todolist.uml#_hv2FkYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kCbMS4OKEeyz4o1LJu6UTw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kCbMTIOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kCbMTYOKEeyz4o1LJu6UTw" name="AddTaskGUI">
+      <modelElement href="Todolist.uml#_hv3TsIOKEeyz4o1LJu6UTw"/>
+      <keywords xmi:id="_kCbMToOKEeyz4o1LJu6UTw" keyword="create"/>
+      <visibility xmi:id="_kCbMT4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kCbMUIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kCbMUYOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hv3Ts4OKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_kCbMUoOKEeyz4o1LJu6UTw" name="AddTaskGUI">
+          <modelElement href="Todolist.uml#_hv03cIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kCbMU4OKEeyz4o1LJu6UTw" name="initialize">
+      <modelElement href="Todolist.uml#_hv36wIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kCbMVIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kCbMVYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kKyeAIOKEeyz4o1LJu6UTw" name="MWindowGUI" associationsIn="_kJD_sIOKEeyz4o1LJu6UTw" associationsOut="_kH3s4IOKEeyz4o1LJu6UTw _kJD_sIOKEeyz4o1LJu6UTw _kJjH4IOKEeyz4o1LJu6UTw _kJju8IOKEeyz4o1LJu6UTw _kKHvoIOKEeyz4o1LJu6UTw _kKdt4IOKEeyz4o1LJu6UTw _kKeU8IOKEeyz4o1LJu6UTw _kKeU8YOKEeyz4o1LJu6UTw _kKe8AIOKEeyz4o1LJu6UTw _kKfjEIOKEeyz4o1LJu6UTw _kKfjEYOKEeyz4o1LJu6UTw _kKfjEoOKEeyz4o1LJu6UTw _kKgKIIOKEeyz4o1LJu6UTw _kKgKIYOKEeyz4o1LJu6UTw _kKgKIoOKEeyz4o1LJu6UTw _kKgxMIOKEeyz4o1LJu6UTw _kKxP4IOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_hwHLUIOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_kKyeAYOKEeyz4o1LJu6UTw" position="116.0,566.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kKyeAoOKEeyz4o1LJu6UTw" label="+"/>
+    <attributes xmi:id="_kKyeA4OKEeyz4o1LJu6UTw" name="frmToDoList">
+      <modelElement href="Todolist.uml#_h1bJIYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vna5YIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnbgcIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn2-QYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv4loIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv5MsIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twVRkIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeBYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeBoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeB4OKEeyz4o1LJu6UTw" name="JFrame">
+        <modelElement href="Todolist.uml#_h0cRsYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeCIOKEeyz4o1LJu6UTw" name="lblDateHour">
+      <modelElement href="Todolist.uml#_h1bwMYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnqxAIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnqxAYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn3lUIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twOj4IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twPyAIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twV4oIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeCoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeC4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeDIOKEeyz4o1LJu6UTw" name="JLabel">
+        <modelElement href="Todolist.uml#_h0eG4YOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeDYOKEeyz4o1LJu6UTw" name="todayTasksList">
+      <modelElement href="Todolist.uml#_h1bwM4OKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnbgcYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vncHgIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vncHgYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vncHgoOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn3lUYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn3lUoOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv5zwIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tv6a0IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv7B4IOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tv7o8IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twWfsIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twWfsYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeEIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeEYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeEoOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeE4OKEeyz4o1LJu6UTw" name="listTodayTasks">
+      <modelElement href="Todolist.uml#_h1cXQoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vncukIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vncukYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vndVoIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vndVoYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn4MYIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn4MYYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv8QAIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tv83EIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv9eIIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tv9eIYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twXGwIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twXGwYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeFoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeF4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeGIOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeGYOKEeyz4o1LJu6UTw" name="statusTodayTasksList">
+      <modelElement href="Todolist.uml#_h1c-UoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnd8sIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnd8sYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnejwIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnejwYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn4zcIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn4zcYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv-FMIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tv-sQIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv_TUIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tv_TUYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twXt0IOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twXt0YOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeHIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeHYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeHoOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeH4OKEeyz4o1LJu6UTw" name="listTodayTasksStatus">
+      <modelElement href="Todolist.uml#_h1eMcIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnfK0IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnfK0YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnfx4IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnfx4YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn5agIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn5agYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv_6YIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tv_6YYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twAhcIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twAhcYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twY78IOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twY78YOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeIoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeI4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeJIOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeJYOKEeyz4o1LJu6UTw" name="tomorrowTasksList">
+      <modelElement href="Todolist.uml#_h1ezgoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vngY8IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vngY8YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vngY8oOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnhAAIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn5agoOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn6BkIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twBIgIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twBvkIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twBvkYOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twCWoIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twZjAIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twaKEIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeKIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeKYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeKoOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeK4OKEeyz4o1LJu6UTw" name="listTomorrowTasks">
+      <modelElement href="Todolist.uml#_h1gBoYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnhAAYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnhnEIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnhnEYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vniOIIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn6ooIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn6ooYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twC9sIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twC9sYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twDkwIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twDkwYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twaxIIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twaxIYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeLoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeL4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeMIOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeMYOKEeyz4o1LJu6UTw" name="statusTomorrowTasksList">
+      <modelElement href="Todolist.uml#_h1hPwYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vniOIYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vni1MIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vni1MYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vni1MoOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn7PsIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn7PsYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twEL0IOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twEy4IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twFZ8IOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twFZ8YOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twb_QIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twb_QYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeNIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeNYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeNoOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeN4OKEeyz4o1LJu6UTw" name="listTomorrowTasksStatus">
+      <modelElement href="Todolist.uml#_h1id4IOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnjcQIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnjcQYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnkqYIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnkqYYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn72wIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn72wYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twGoEIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twHPIIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twH2MIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twH2MYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twcmUIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twcmUYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeOoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeO4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyePIOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyePYOKEeyz4o1LJu6UTw" name="weekTasksList">
+      <modelElement href="Todolist.uml#_h1jE8YOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnlRcIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnlRcYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnl4gIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnmfkIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn8d0IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn8d0YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twIdQIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twJEUIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twJrYIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twJrYYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twdNYIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twdNYYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeQIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeQYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeQoOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeQ4OKEeyz4o1LJu6UTw" name="listWeekTasks">
+      <modelElement href="Todolist.uml#_h1kTEYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnnGoIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnnGoYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnntsIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnntsYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn9E4IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn9E4YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twKScIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twKScYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twK5gIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twK5gYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twd0cIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twebgIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeRoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeR4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeSIOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeSYOKEeyz4o1LJu6UTw" name="statusWeekTasksList">
+      <modelElement href="Todolist.uml#_h1lhMYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnoUwIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnoUwYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnoUwoOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vno70IOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn9E4oOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn9r8IOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twLgkIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twLgkYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twMHoIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twMHoYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twebgYOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twfCkIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeTIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeTYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeToOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeT4OKEeyz4o1LJu6UTw" name="listWeekTasksStatus">
+      <modelElement href="Todolist.uml#_h1mvUYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vno70YOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnpi4IOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnpi4YOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnqJ8IOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn9r8YOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn-TAIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twMusIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twNVwIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twN80IOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twN80YOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twfCkYOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twfpoIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeUoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeU4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeVIOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeVYOKEeyz4o1LJu6UTw" defaultValue="&quot;/Users/dave1601/eclipse-workspace/Todolist/docs/mytasks.txt&quot;" name="filePath" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1nWYoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_kKyeVoOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1n9cYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKyeV4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyeWIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeWYOKEeyz4o1LJu6UTw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeWoOKEeyz4o1LJu6UTw" defaultValue="new MainLogic(filePath)" name="mainlogic" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1n9coOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnZEMIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnZEMYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn-TAYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv1iUIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv2JYIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twgQsIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeXIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyeXYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeXoOKEeyz4o1LJu6UTw" name="MainLogic">
+        <modelElement href="Todolist.uml#_hvhVcIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeX4OKEeyz4o1LJu6UTw" name="window" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1pLkIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnZrQIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnZrQYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn_hIIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv2JYYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv2wcIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twgQsYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeYYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyeYoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeY4OKEeyz4o1LJu6UTw" name="MWindowGUI">
+        <modelElement href="Todolist.uml#_hwHLUIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeZIOKEeyz4o1LJu6UTw" name="lists" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1pyoIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnaSUIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnaSUYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn_hIYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv3XgIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tv3-kIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twg3wIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kKyeZoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyeZ4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyeaIOKEeyz4o1LJu6UTw" name="ListsOfTasksGUI">
+        <modelElement href="Todolist.uml#_hv-ocIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeaYOKEeyz4o1LJu6UTw" name="reformedToday" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1qZsIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_kKyeaoOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1qZsYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKyea4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyebIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyebYOKEeyz4o1LJu6UTw" name="Date">
+        <modelElement href="Todolist.uml#_h0PdYYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyeboOKEeyz4o1LJu6UTw" name="reformedTomorrow" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1rAwIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_kKyeb4OKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1rAwYOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKyecIOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyecYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyecoOKEeyz4o1LJu6UTw" name="Date">
+        <modelElement href="Todolist.uml#_h0PdYYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kKyec4OKEeyz4o1LJu6UTw" name="reformedWeek" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1rn0IOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_kKyedIOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1rn0YOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kKyedYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyedoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kKyed4OKEeyz4o1LJu6UTw" name="Date">
+        <modelElement href="Todolist.uml#_h0PdYYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kKyeeIOKEeyz4o1LJu6UTw" name="main" staticOperation="true">
+      <modelElement href="Todolist.uml#_hwJnkIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKyeeYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyeeoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kKyee4OKEeyz4o1LJu6UTw" name="args">
+        <modelElement href="Todolist.uml#_hwJnkYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kKyefIOKEeyz4o1LJu6UTw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kKyefYOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kKyefoOKEeyz4o1LJu6UTw" name="refresh">
+      <modelElement href="Todolist.uml#_hwK1sIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKyef4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyegIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kKyegYOKEeyz4o1LJu6UTw" name="initEditor" staticOperation="true">
+      <modelElement href="Todolist.uml#_hwK1sYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKyegoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyeg4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kKyehIOKEeyz4o1LJu6UTw" name="MWindowGUI">
+      <modelElement href="Todolist.uml#_hwLcwIOKEeyz4o1LJu6UTw"/>
+      <keywords xmi:id="_kKyehYOKEeyz4o1LJu6UTw" keyword="create"/>
+      <visibility xmi:id="_kKyehoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyeh4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kKyeiIOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hwLcw4OKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_kKyeiYOKEeyz4o1LJu6UTw" name="MWindowGUI">
+          <modelElement href="Todolist.uml#_hwHLUIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kKyeioOKEeyz4o1LJu6UTw" name="clock">
+      <modelElement href="Todolist.uml#_hwLcxIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKyei4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyejIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kKyejYOKEeyz4o1LJu6UTw" name="initialize">
+      <modelElement href="Todolist.uml#_hwMD0IOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKyejoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyej4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kKyekIOKEeyz4o1LJu6UTw" name="sortArrayTasks">
+      <modelElement href="Todolist.uml#_h0wawIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKyekYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyekoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kKyek4OKEeyz4o1LJu6UTw" name="list">
+        <modelElement href="Todolist.uml#_h0xB0IOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kKyelIOKEeyz4o1LJu6UTw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kKyelYOKEeyz4o1LJu6UTw" name="Task">
+          <modelElement href="Todolist.uml#_hwTYkIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kKyeloOKEeyz4o1LJu6UTw" name="listStatus">
+        <modelElement href="Todolist.uml#_h0xB0YOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kKyel4OKEeyz4o1LJu6UTw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kKyemIOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kKyemYOKEeyz4o1LJu6UTw" name="getTaskfromList" staticOperation="true">
+      <modelElement href="Todolist.uml#_h1Ej0IOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKyemoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kKyem4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kKyenIOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_h1FK4IOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_kKyenYOKEeyz4o1LJu6UTw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_kKyenoOKEeyz4o1LJu6UTw" name="list">
+        <modelElement href="Todolist.uml#_h1Ej0YOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kKyen4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_kKyeoIOKEeyz4o1LJu6UTw" name="JList">
+          <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kKyeoYOKEeyz4o1LJu6UTw" name="reorderLists">
+      <modelElement href="Todolist.uml#_h1Fx8IOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKyeooOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyeo4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kKyepIOKEeyz4o1LJu6UTw" name="modelTasksList">
+        <modelElement href="Todolist.uml#_h1Fx8YOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kKyepYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_kKyepoOKEeyz4o1LJu6UTw" name="DefaultListModel">
+          <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kKyep4OKEeyz4o1LJu6UTw" name="modelStatusTasksList">
+        <modelElement href="Todolist.uml#_h1Fx8oOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kKyeqIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_kKyeqYOKEeyz4o1LJu6UTw" name="DefaultListModel">
+          <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kKyeqoOKEeyz4o1LJu6UTw" name="addPopup" staticOperation="true">
+      <modelElement href="Todolist.uml#_h1HAEIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kKyeq4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kKyerIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kKyerYOKEeyz4o1LJu6UTw" name="component">
+        <modelElement href="Todolist.uml#_h1HAEYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kKyeroOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_kKyer4OKEeyz4o1LJu6UTw" name="Component">
+          <modelElement href="Todolist.uml#_h0mpwoOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kKyesIOKEeyz4o1LJu6UTw" name="popup">
+        <modelElement href="Todolist.uml#_h1HAEoOKEeyz4o1LJu6UTw"/>
+        <keywords xmi:id="_kKyesYOKEeyz4o1LJu6UTw" keyword="final"/>
+        <cardinality xmi:id="_kKyesoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_kKyes4OKEeyz4o1LJu6UTw" name="JPopupMenu">
+          <modelElement href="Todolist.uml#_h0nQ0YOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kEisEIOKEeyz4o1LJu6UTw" name="EditTaskGUI" associationsOut="_kDHvwIOKEeyz4o1LJu6UTw _kDhYYIOKEeyz4o1LJu6UTw _kDhYYYOKEeyz4o1LJu6UTw _kDm38IOKEeyz4o1LJu6UTw _kEPxIIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_hv5v8IOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_kEisEYOKEeyz4o1LJu6UTw" position="83.0,1285.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kEisEoOKEeyz4o1LJu6UTw" label="+"/>
+    <attributes xmi:id="_kEisE4OKEeyz4o1LJu6UTw" name="frmTaskEditor">
+      <modelElement href="Todolist.uml#_h1RYIoOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnKasIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnKasYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnvCcYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvZdcIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvaEgIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twhe0IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kEisFYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kEisFoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kEisF4OKEeyz4o1LJu6UTw" name="JFrame">
+        <modelElement href="Todolist.uml#_h0cRsYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kEisGIOKEeyz4o1LJu6UTw" name="textFieldShownTasks">
+      <modelElement href="Todolist.uml#_h1R_MYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnLBwIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnLo0IOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnvpgIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvarkIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvarkYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twiF4IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kEisGoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kEisG4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kEisHIOKEeyz4o1LJu6UTw" name="JTextField">
+        <modelElement href="Todolist.uml#_h0SgsYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kEisHYOKEeyz4o1LJu6UTw" name="dateChooser">
+      <modelElement href="Todolist.uml#_h1R_M4OKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnM28IOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnM28YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnvpgYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvdu4IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tve9AIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twiF4YOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kEisH4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kEisIIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kEisIYOKEeyz4o1LJu6UTw" name="JDateChooser">
+        <modelElement href="Todolist.uml#_h0hKMYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kEisIoOKEeyz4o1LJu6UTw" name="comboBoxImportant">
+      <modelElement href="Todolist.uml#_h1SmQYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnNeAIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnNeAYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnOFEIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnOFEYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnwQkIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnw3oIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvfkEIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvgLIIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvgyMIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvgyMYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twis8IOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twis8YOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kEisJYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kEisJoOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kEisJ4OKEeyz4o1LJu6UTw" name="JComboBox">
+        <modelElement href="Todolist.uml#_h0c4wYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kEisKIOKEeyz4o1LJu6UTw" name="btnDone">
+      <modelElement href="Todolist.uml#_h1TNUYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnLo0YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnMP4IOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnw3oYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvb5sIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvcgwIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twj7EIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kEisKoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kEisK4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kEisLIOKEeyz4o1LJu6UTw" name="JButton">
+        <modelElement href="Todolist.uml#_h0fVAYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kEisLYOKEeyz4o1LJu6UTw" name="flag" staticAttribute="true">
+      <modelElement href="Todolist.uml#_h1TNU4OKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_kEisLoOKEeyz4o1LJu6UTw" name="LegacyStyledElement">
+        <modelElement href="Todolist.uml#_h1T0YIOKEeyz4o1LJu6UTw"/>
+      </stereotypes>
+      <visibility xmi:id="_kEisL4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kEisMIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kEisMYOKEeyz4o1LJu6UTw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kEisMoOKEeyz4o1LJu6UTw" name="main" staticOperation="true">
+      <modelElement href="Todolist.uml#_hv6-EIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kEisM4OKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kEisNIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kEisNYOKEeyz4o1LJu6UTw" name="args">
+        <modelElement href="Todolist.uml#_hv7lIIOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kEisNoOKEeyz4o1LJu6UTw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kEisN4OKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kEisOIOKEeyz4o1LJu6UTw" name="EditTaskGUI">
+      <modelElement href="Todolist.uml#_hv8MMIOKEeyz4o1LJu6UTw"/>
+      <keywords xmi:id="_kEisOYOKEeyz4o1LJu6UTw" keyword="create"/>
+      <visibility xmi:id="_kEisOoOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kEisO4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kEisPIOKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hv8MM4OKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_kEisPYOKEeyz4o1LJu6UTw" name="EditTaskGUI">
+          <modelElement href="Todolist.uml#_hv5v8IOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kEisPoOKEeyz4o1LJu6UTw" name="initialize">
+      <modelElement href="Todolist.uml#_hv8zQIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kEisP4OKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kEisQIOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_kGt2WYOKEeyz4o1LJu6UTw" name="ListsOfTasksGUI" associationsIn="_kJjH4IOKEeyz4o1LJu6UTw" associationsOut="_kFWkYIOKEeyz4o1LJu6UTw _kGU0wIOKEeyz4o1LJu6UTw _kGnIoIOKEeyz4o1LJu6UTw _kGoWwIOKEeyz4o1LJu6UTw _kGqL8IOKEeyz4o1LJu6UTw _kGraEIOKEeyz4o1LJu6UTw _kGsBIIOKEeyz4o1LJu6UTw _kGsoMIOKEeyz4o1LJu6UTw _kGt2UIOKEeyz4o1LJu6UTw">
+    <modelElement href="Todolist.uml#_hv-ocIOKEeyz4o1LJu6UTw"/>
+    <visualProperties xmi:id="_kGt2WoOKEeyz4o1LJu6UTw" position="183.0,108.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_kGt2W4OKEeyz4o1LJu6UTw" label="+"/>
+    <attributes xmi:id="_kGt2XIOKEeyz4o1LJu6UTw" name="frmListsOfTasks">
+      <modelElement href="Todolist.uml#_h1T0YYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnOsIIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnPTMIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnxesIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvhZQIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tviAUIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twkiIIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kGt2XoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kGt2X4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kGt2YIOKEeyz4o1LJu6UTw" name="JFrame">
+        <modelElement href="Todolist.uml#_h0cRsYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kGt2YYOKEeyz4o1LJu6UTw" name="listCompletedTasks">
+      <modelElement href="Todolist.uml#_h1UbcYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnPTMYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnP6QIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnP6QYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnP6QoOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnyFwIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnyFwYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvinYIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvjOcIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvj1gIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvj1gYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twlwQIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twlwQYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kGt2ZIOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGt2ZYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kGt2ZoOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kGt2Z4OKEeyz4o1LJu6UTw" name="completedTasksList">
+      <modelElement href="Todolist.uml#_h1VpkIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnQhUIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnQhUYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnRIYIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnRIYYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnys0IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnys0YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvlDoIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvlDoYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvmRwIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvmRwYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twmXUIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twm-YIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kGt2aoOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGt2a4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kGt2bIOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kGt2bYOKEeyz4o1LJu6UTw" name="listActiveTasks">
+      <modelElement href="Todolist.uml#_h1WQoYOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnRvcIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnRvcYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnSWgIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnSWgYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnz68IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnz68YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvnf4IOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvoG8IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvpVEIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvpVEYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twnlcIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twnlcYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kGt2cIOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGt2cYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kGt2coOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kGt2c4OKEeyz4o1LJu6UTw" name="activeTasksList">
+      <modelElement href="Todolist.uml#_h1W3soOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnS9kIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnS9kYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnTkoIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnTkoYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn0iAIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn0iAYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvqjMIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvqjMYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvrKQIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvrKQYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twoMgIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twoMgYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kGt2doOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGt2d4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kGt2eIOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kGt2eYOKEeyz4o1LJu6UTw" name="listImportantTasks">
+      <modelElement href="Todolist.uml#_h1YF0YOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnULsIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnULsYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnUywIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnUywYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn1JEIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn1JEYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvrxUIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvsYYIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvs_cIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvs_cYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twozkIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twozkYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kGt2fIOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGt2fYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kGt2foOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kGt2f4OKEeyz4o1LJu6UTw" name="importantTasksList">
+      <modelElement href="Todolist.uml#_h1Ys4oOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnVZ0IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnVZ0YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnWA4IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnWA4YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn1wIIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn1wIYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvtmgIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvuNkIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvu0oIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvu0oYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twpaoIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twpaoYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kGt2goOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGt2g4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kGt2hIOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kGt2hYOKEeyz4o1LJu6UTw" name="listOverdueTasks">
+      <modelElement href="Todolist.uml#_h1Z7AIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnWn8IOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnWn8YOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnXPAIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnXPAYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn1wIoOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn2XMIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvwCwIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvwCwYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvwp0IOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvxQ4IOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twqBsIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twqBsYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kGt2iIOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGt2iYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kGt2ioOKEeyz4o1LJu6UTw" name="JList">
+        <modelElement href="Todolist.uml#_h0lboYOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_kGt2i4OKEeyz4o1LJu6UTw" name="overdueTasksList">
+      <modelElement href="Todolist.uml#_h1aiEIOKEeyz4o1LJu6UTw"/>
+      <stereotypes xmi:id="_vnX2EIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnX2EYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vnYdIIOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vnYdIYOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_vn2XMYOKEeyz4o1LJu6UTw" name="Generics"/>
+      <stereotypes xmi:id="_vn2-QIOKEeyz4o1LJu6UTw" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvyfAIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tvzGEIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_tvztIIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_tv0UMIOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_twqowIOuEeyBOODtX1qi-w" name="Generics"/>
+      <stereotypes xmi:id="_twqowYOuEeyBOODtX1qi-w" name="LegacyStyledElement"/>
+      <visibility xmi:id="_kGt2joOKEeyz4o1LJu6UTw" label="~"/>
+      <cardinality xmi:id="_kGt2j4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <type xmi:id="_kGt2kIOKEeyz4o1LJu6UTw" name="DefaultListModel">
+        <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_kGt2kYOKEeyz4o1LJu6UTw" name="main" staticOperation="true">
+      <modelElement href="Todolist.uml#_hwAdoIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGt2koOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGt2k4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kGt2lIOKEeyz4o1LJu6UTw" name="args">
+        <modelElement href="Todolist.uml#_hwAdoYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kGt2lYOKEeyz4o1LJu6UTw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kGt2loOKEeyz4o1LJu6UTw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kGt2l4OKEeyz4o1LJu6UTw" name="ListsOfTasksGUI">
+      <modelElement href="Todolist.uml#_hwBEsYOKEeyz4o1LJu6UTw"/>
+      <keywords xmi:id="_kGt2mIOKEeyz4o1LJu6UTw" keyword="create"/>
+      <visibility xmi:id="_kGt2mYOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGt2moOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_kGt2m4OKEeyz4o1LJu6UTw">
+        <modelElement href="Todolist.uml#_hwBrwoOKEeyz4o1LJu6UTw"/>
+        <type xmi:id="_kGt2nIOKEeyz4o1LJu6UTw" name="ListsOfTasksGUI">
+          <modelElement href="Todolist.uml#_hv-ocIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_kGt2nYOKEeyz4o1LJu6UTw" name="refresh_2">
+      <modelElement href="Todolist.uml#_hwBrw4OKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGt2noOKEeyz4o1LJu6UTw" label="+"/>
+      <cardinality xmi:id="_kGt2n4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kGt2oIOKEeyz4o1LJu6UTw" name="initialize">
+      <modelElement href="Todolist.uml#_hwCS0IOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGt2oYOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kGt2ooOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_kGt2o4OKEeyz4o1LJu6UTw" name="sortArrayTasks_2">
+      <modelElement href="Todolist.uml#_h0qUIIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGt2pIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kGt2pYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kGt2poOKEeyz4o1LJu6UTw" name="list">
+        <modelElement href="Todolist.uml#_h0qUIYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kGt2p4OKEeyz4o1LJu6UTw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_kGt2qIOKEeyz4o1LJu6UTw" name="Task">
+          <modelElement href="Todolist.uml#_hwTYkIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kGt2qYOKEeyz4o1LJu6UTw" name="reorderLists_2">
+      <modelElement href="Todolist.uml#_h1BggIOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGt2qoOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kGt2q4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kGt2rIOKEeyz4o1LJu6UTw" name="modelTasksList">
+        <modelElement href="Todolist.uml#_h1BggYOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kGt2rYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_kGt2roOKEeyz4o1LJu6UTw" name="DefaultListModel">
+          <modelElement href="Todolist.uml#_h0kNgIOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_kGt2r4OKEeyz4o1LJu6UTw" name="addPopup" staticOperation="true">
+      <modelElement href="Todolist.uml#_h1CHkYOKEeyz4o1LJu6UTw"/>
+      <visibility xmi:id="_kGt2sIOKEeyz4o1LJu6UTw" label="-"/>
+      <cardinality xmi:id="_kGt2sYOKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_kGt2soOKEeyz4o1LJu6UTw" name="component">
+        <modelElement href="Todolist.uml#_h1CuoIOKEeyz4o1LJu6UTw"/>
+        <cardinality xmi:id="_kGt2s4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_kGt2tIOKEeyz4o1LJu6UTw" name="Component">
+          <modelElement href="Todolist.uml#_h0mpwoOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_kGt2tYOKEeyz4o1LJu6UTw" name="popup">
+        <modelElement href="Todolist.uml#_h1CuoYOKEeyz4o1LJu6UTw"/>
+        <keywords xmi:id="_kGt2toOKEeyz4o1LJu6UTw" keyword="final"/>
+        <cardinality xmi:id="_kGt2t4OKEeyz4o1LJu6UTw" label="1" max="1" min="1"/>
+        <type xmi:id="_kGt2uIOKEeyz4o1LJu6UTw" name="JPopupMenu">
+          <modelElement href="Todolist.uml#_h0nQ0YOKEeyz4o1LJu6UTw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
